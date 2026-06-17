@@ -1,0 +1,45 @@
+[6/15/26, 7:22:01 PM] ~Hedy: ‎Messages and calls are end-to-end encrypted. Only people in this chat can read, listen to, or share them.
+[6/15/26, 7:22:01 PM] ~Hedy:
+[6/15/26, 7:22:01 PM] ~Hedy: Hello there! Thank you for your inquiry.
+I work in international logistics, specializing in full-container load (FCL) ocean freight services from China and Southeast Asia to the U.S., including door-to-door DDP delivery and full customs clearance. Would you like to receive our latest quote?
+[6/15/26, 7:22:02 PM] Vlad: Hello! Can I get more info on this?
+[6/15/26, 7:22:08 PM] Vlad: Hi, please calculate the cheapest DDP sea shipping option (sea + truck) to the USA.
+
+Cargo location:
+Nantong, Jiangsu, China (near Shanghai)
+
+Destination:
+Business address
+Brooklyn, NY 11214, USA
+
+Cargo:
+200 bedding sets
+
+Product details:
+- 100% cotton
+- No brand names
+- No trademarks
+- No logos
+- No retail packaging with branded markings
+
+Total weight:
+560 kg
+
+Total volume:
+2.77 CBM
+
+One bedding set:
+- 2.8 kg
+- 40.5 × 38 × 9 cm
+
+Please provide:
+- Total DDP shipping cost
+- Transit time
+- Confirmation that the quote includes door delivery, customs clearance, duties, and taxes
+[6/15/26, 7:24:15 PM] ~Hedy: 提货地址和派送地址需完整
+[6/15/26, 7:43:05 PM] Vlad: 我觉得，对于初步报价和预估来说，我提供的信息已经足够了。
+[6/15/26, 7:45:39 PM] ~Hedy: OK OK，那我在北京时间上班后帮您处理报价 不过价格可能会有偏差喔
+[6/15/26, 7:53:11 PM] Vlad: 没问题，谢谢您，我等您的报价。😊
+[6/15/26, 7:53:29 PM] ~Hedy: 😊
+[6/15/26, 8:54:08 PM] ~Hedy: 总价 1500USD
+[6/15/26, 8:54:50 PM] ~Hedy: 这是所有的费用

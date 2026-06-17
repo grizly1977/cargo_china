@@ -1,0 +1,67 @@
+[6/15/26, 7:09:10 PM] ~ITSGOOD Logistics: ‎Messages and calls are end-to-end encrypted. Only people in this chat can read, listen to, or share them.
+[6/15/26, 7:09:10 PM] ~ITSGOOD Logistics:
+[6/15/26, 7:09:10 PM] ~ITSGOOD Logistics: 您好！有问题可以直接告诉我们哦。
+[6/15/26, 7:09:10 PM] Vlad: 您好，我想多了解一些信息。
+[6/15/26, 7:09:15 PM] Vlad: Hi, please calculate the cheapest DDP sea shipping option (sea + truck) to the USA.
+
+Cargo location:
+Nantong, Jiangsu, China (near Shanghai)
+
+Destination:
+Business address
+Brooklyn, NY 11214, USA
+
+Cargo:
+200 bedding sets
+
+Total weight:
+560 kg
+
+Total volume:
+2.77 CBM
+
+One bedding set:
+2.8 kg
+40.5 × 38 × 9 cm
+
+Please provide:
+- Total DDP shipping cost
+- Transit time
+- Confirmation that the quote includes door delivery, customs clearance, duties, and taxes
+[6/15/26, 7:10:16 PM] ~ITSGOOD Logistics: How many boxes are there in total, boss?
+[6/15/26, 7:16:59 PM] Vlad: It depends. It can be packed how you want
+[6/15/26, 7:31:47 PM] ~ITSGOOD Logistics: I calculate the freight according to 560kg. The total sea freight is 943.5 US dollars, and the cost includes: pick-up, transportation, customs clearance and delivery.
+[6/15/26, 7:32:43 PM] ~ITSGOOD Logistics: It is best to transport in the form of a pallet, and I will give you an additional unloading service.
+[6/15/26, 7:51:13 PM] Vlad: OK, please provide me the unloading service and the full price of it
+[6/15/26, 7:52:13 PM] ~ITSGOOD Logistics: You don‘t need to pay for the unloading service.
+[6/15/26, 7:53:07 PM] ~ITSGOOD Logistics: The total cost is 943.5 dollars, and the unit price is 1.7 dollars.
+[6/15/26, 7:57:44 PM] Vlad: Are you gonna pick up the product or I need to deliver it to your house.
+[6/15/26, 7:58:23 PM] Vlad: Warehouse *
+[6/15/26, 7:58:27 PM] ~ITSGOOD Logistics: It would be better if you could send it to the warehouse.
+[6/15/26, 7:58:48 PM] Vlad: What is the address of your warehouse?
+[6/15/26, 7:59:16 PM] ~ITSGOOD Logistics: 海运地址：
+义乌市稠江街 道德贸路2号启函物流园二层平台33号门（皓鹏）    
+联系电话：13396797592
+收货时间：周一至周六 9:00-22:00  周日休息
+
+空运地址：
+深圳市宝安区福永街道大洋路1号园区（皓鹏物流园）
+白班（13590350709）王生  
+晚班（18218419574）武生
+[6/15/26, 7:59:36 PM] ~ITSGOOD Logistics: Chinese address, but ask your supplier to contact me before you deliver the goods.
+[6/15/26, 8:02:06 PM] Vlad: How far is it from Nantong?
+‎[6/15/26, 8:02:48 PM] ~ITSGOOD Logistics: ‎image omitted
+[6/15/26, 8:03:09 PM] ~ITSGOOD Logistics: About 360km
+[6/15/26, 8:04:09 PM] Vlad: Do you have anything closer. Or how much pick up will cost
+[6/15/26, 8:05:02 PM] ~ITSGOOD Logistics: This is the nearest warehouse, boss.
+[6/15/26, 8:05:18 PM] ~ITSGOOD Logistics: You probably need the specific pick-up address to know.
+[6/15/26, 8:07:46 PM] Vlad: 江苏省南通市海门区三星镇中国叠石桥国际家纺城3号门
+[6/15/26, 8:07:53 PM] Vlad: This is pick up address
+‎[6/15/26, 8:21:57 PM] ~ITSGOOD Logistics: ‎image omitted
+[6/15/26, 8:22:31 PM] ~ITSGOOD Logistics: How about I pay 30 dollars and you bear 25 dollars?
+[6/15/26, 8:25:40 PM] Vlad: 哇，真没想到！我都不知道滴滴还有货运服务。
+[6/15/26, 8:26:45 PM] Vlad: Ok it’s not that expensive. Got it
+[6/15/26, 8:38:53 PM] ~ITSGOOD Logistics: When will the goods be ready?
+[6/15/26, 8:39:06 PM] ~ITSGOOD Logistics: This is China‘s Huolala service.
+[6/15/26, 8:49:11 PM] Vlad: Let me check with supplier. I will get back to you
+[6/15/26, 8:56:38 PM] ~ITSGOOD Logistics: OK, boss.🥰

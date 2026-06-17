@@ -1,8 +1,8 @@
 {
   "meta": {
     "generated_at": "2026-06-17",
-    "total_chats_analyzed": 21,
-    "complete_companies": 16,
+    "total_chats_analyzed": 22,
+    "complete_companies": 17,
     "incomplete_companies": 5,
     "base_weight_kg": 580,
     "rmb_to_usd_rate": 6.75,
@@ -316,6 +316,72 @@
       "rank": 5
     },
     {
+      "id": "unreal_china",
+      "company": "Unreal China（Gulmira Savatbek）",
+      "contact": "Gulmira Savatbek",
+      "phone": "+996 702 877 117",
+      "file": "WhatsApp_Chat__996_702_877_117",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.81/kg 慢船（初步估算）或 2.23/kg 快船",
+      "price_per_kg_usd": 1.81,
+      "shipping_cost_usd": 1049.8,
+      "additional_fees_usd": 100,
+      "additional_fees_desc": "从南通供应商处提货至仓库的提货费：$100",
+      "final_total_usd": 1149.8,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": true
+      },
+      "ddp_status": "partial",
+      "pickup_from_nantong": "paid",
+      "warehouse_address": "上海市青浦区华新镇嘉松中路3299号B05－B06，联系人：天昂 18664939534（收货时间：周一至周六10:00-21:00）",
+      "warehouse_city": "上海（公司推荐，比东莞主仓库更靠近南通）",
+      "transit_time": "40-50天（慢船）；或26-32天，费用为$1,293.4 + 提货费（快船）",
+      "min_charge": "未提供；该方案下最大箱规：120×100×180厘米",
+      "restrictions": "该价格为初步估算，并非最终价格（公司明确说明，实际装箱后价格可能会有变化）。聊天接近结束时，公司提出由于美国海关检查力度加强，纺织品需要CPC/GCC认证；截至聊天结束，物流人员尚未确认该认证是否适用于无品牌、无标志、无电池的床上用品——这存在延误和额外费用的风险。",
+      "score": {
+        "price": 39.8,
+        "pickup": 14,
+        "transit": 11.3,
+        "ddp": 7,
+        "proximity": 4,
+        "total": 76.1
+      },
+      "evidence": [
+        {
+          "quote": "580kg*1.81=1 049,8$, срок доставки 40-50 дней\n580kg*2.23=1 293,4$, срок доставки 26-32 дней\n\n*стоимость пикапа:100$",
+          "note": "针对主要货物（580公斤，192套床上用品）的初步估算及南通提货费"
+        },
+        {
+          "quote": "Если вы хотите отправить груз по DDP, надежнее всего выбрать сборную доставку в коробках. При схеме \"море + трак\" в стоимость уже «под ключ» входят все таможенные процедуры, досмотры и прочие расходы. Это гораздо безопаснее для вас",
+          "note": "总体确认海运+卡车拼箱方案按DDP条款组织"
+        },
+        {
+          "quote": "Требуется сертификация CPC или GCC",
+          "note": "认证要求是在报价之后提出的——截至聊天结束，尚未就该产品最终确认"
+        },
+        {
+          "quote": "上海市青浦区华新镇嘉松中路3299号B05－B06  联系人：天昂 18664939534 （收货时间：周一至周六10:00-21:00）",
+          "note": "上海仓库地址——作为比东莞仓库（距南通约400公里）更近的备选方案提出"
+        }
+      ],
+      "questions_to_clarify": [
+        "确认无品牌、无标志、无电池的床上用品是否需要CPC/GCC认证",
+        "在确认具体装箱方式后获取最终（非初步）报价",
+        "确认本批货物的最终价格是否包含关税和税费",
+        "确认能否直接从南通地址（叠石桥国际家纺城）安排提货，无需额外协调"
+      ],
+      "rank": 6
+    },
+    {
       "id": "eusa",
       "company": "EUSA",
       "contact": "EUSA（联系人姓名未提供）",
@@ -374,7 +440,7 @@
         "确认送仓的确切费用（RMB 500-600区间）",
         "获取明确的DDP确认，并列明包含的具体项目"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "id": "itsgood",
@@ -433,7 +499,7 @@
       "questions_to_clarify": [
         "确认运输时效"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "id": "alan_gz",
@@ -493,7 +559,7 @@
         "以书面形式确认最终价格及构成（是否包含$100运费）",
         "确认运输时效"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "id": "jiyang_alan",
@@ -554,7 +620,7 @@
         "确认运输时效",
         "确认从南通到上海仓库的运费"
       ],
-      "rank": 9
+      "rank": 10
     },
     {
       "id": "niuku",
@@ -613,7 +679,7 @@
       "questions_to_clarify": [
         "确认运输时效"
       ],
-      "rank": 10
+      "rank": 11
     },
     {
       "id": "jason_unnamed",
@@ -673,7 +739,7 @@
         "确认公司名称",
         "确认仓库具体地址"
       ],
-      "rank": 11
+      "rank": 12
     },
     {
       "id": "twotigers",
@@ -733,7 +799,7 @@
         "确认运输时效",
         "确认从南通到深圳的运费"
       ],
-      "rank": 12
+      "rank": 13
     },
     {
       "id": "hke_sophia",
@@ -794,7 +860,7 @@
         "确认仓库地址",
         "确认南通提货费用"
       ],
-      "rank": 13
+      "rank": 14
     },
     {
       "id": "ailee",
@@ -855,7 +921,7 @@
         "确认运输时效",
         "确认从南通到义乌仓库的运费"
       ],
-      "rank": 14
+      "rank": 15
     },
     {
       "id": "henry",
@@ -907,7 +973,7 @@
         "确认仓库地址及南通提货的可行性",
         "确认具体的日历天数时效"
       ],
-      "rank": 15
+      "rank": 16
     },
     {
       "id": "hedy",
@@ -964,7 +1030,7 @@
         "确认运输时效",
         "确认提货/仓库信息"
       ],
-      "rank": 16
+      "rank": 17
     }
   ],
   "incomplete": [

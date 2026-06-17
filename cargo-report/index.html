@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Сравнение cargo-компаний для доставки груза Nantong → Brooklyn</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <h1>Сравнение cargo-компаний для доставки груза Nantong → Brooklyn</h1>
+    <p class="subtitle" id="header-stats">Загрузка данных…</p>
+  </div>
+</header>
+
+<main class="container">
+
+  <section id="summary-cards" class="summary-cards"></section>
+
+  <section class="section">
+    <h2>Топ 5 лучших вариантов</h2>
+    <div id="top5" class="top5-grid"></div>
+  </section>
+
+  <section class="section">
+    <h2>Сравнение всех компаний с полными данными</h2>
+    <div class="controls">
+      <input type="text" id="search" placeholder="Поиск: компания, телефон, город, файл…">
+      <label class="checkbox"><input type="checkbox" id="filter-pickup"> Только с пикапом из Nantong</label>
+      <label class="checkbox"><input type="checkbox" id="filter-ddp"> Только подтверждённый DDP</label>
+      <select id="sort-by">
+        <option value="score">Сортировать: по рейтингу (score)</option>
+        <option value="price">Сортировать: по цене</option>
+        <option value="transit">Сортировать: по сроку доставки</option>
+      </select>
+    </div>
+    <div class="table-wrap">
+      <table id="main-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Компания / контакт</th>
+            <th>Телефон</th>
+            <th>Файл чата</th>
+            <th>Цена $/кг</th>
+            <th>Итог, USD</th>
+            <th>Пикап из Nantong</th>
+            <th>Адрес склада</th>
+            <th>Город склада</th>
+            <th>Срок доставки</th>
+            <th>DDP</th>
+            <th>Включено</th>
+            <th>Доп. сборы</th>
+            <th>Score</th>
+            <th>Риски / примечания</th>
+            <th>Подтверждение</th>
+          </tr>
+        </thead>
+        <tbody id="main-table-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Подробные карточки по компаниям</h2>
+    <div id="detail-cards" class="detail-cards"></div>
+  </section>
+
+  <section class="section">
+    <h2>Компании, которые не вошли в рейтинг из-за неполных данных</h2>
+    <div id="incomplete-list" class="incomplete-list"></div>
+  </section>
+
+  <section class="section methodology">
+    <h2>Методология</h2>
+    <div id="methodology"></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>Отчёт сформирован автоматически на основе переписок WhatsApp с логистическими компаниями. Все цифры проверяемы по исходным цитатам.</p>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>

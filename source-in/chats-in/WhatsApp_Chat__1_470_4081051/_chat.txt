@@ -1,0 +1,50 @@
+[6/15/26, 7:15:08 PM] ~EUSA: ‎Messages and calls are end-to-end encrypted. Only people in this chat can read, listen to, or share them.
+[6/15/26, 7:15:08 PM] ~EUSA:
+[6/15/26, 7:15:08 PM] ~EUSA: Welcome to EUSA! We specialize in door-to-door shipping from China to the USA. How can we assist you today? Are you looking for information about pricing, transit times, or our shipping services?
+[6/15/26, 7:15:15 PM] Vlad: Hi, please calculate the cheapest DDP sea shipping option (sea + truck) to the USA.
+
+Cargo location:
+Nantong, Jiangsu, China (near Shanghai)
+
+Destination:
+Business address
+Brooklyn, NY 11214, USA
+
+Cargo:
+200 bedding sets
+
+Total weight:
+560 kg
+
+Total volume:
+2.77 CBM
+
+One bedding set:
+2.8 kg
+40.5 × 38 × 9 cm
+
+Please provide:
+- Total DDP shipping cost
+- Transit time
+- Confirmation that the quote includes door delivery, customs clearance, duties, and taxes
+[6/16/26, 8:35:48 AM] ~EUSA: Thank you for your inquiry. 😊
+We have received your shipment details and are currently checking the freight cost for the most economical DDP sea shipping option.
+[6/16/26, 8:36:01 AM] ~EUSA: We may need to confirm a few additional details with you shortly to ensure the quotation is accurate. We will get back to you as soon as possible.
+Thank you for your patience.
+[6/16/26, 2:19:29 PM] ~EUSA: Thank you for waiting.
+For your shipment to New York, we can offer a sea freight door-to-door service:
+[6/16/26, 2:19:59 PM] ~EUSA: Transit time: around 40 days，total cost: USD 1,073 (based on 560kg chargeable weight)
+[6/16/26, 2:21:24 PM] ~EUSA: Our rate is USD 1.92/kg.
+[6/16/26, 2:22:51 PM] ~EUSA: Would you like me to proceed with this sea freight option ？
+[6/16/26, 2:27:56 PM] Vlad: Are you going to pick it up
+[6/16/26, 2:34:35 PM] ~EUSA: For better handling and more efficient shipping, we suggest arranging the goods to be delivered to our designated warehouse first by your supplier or local logistics.
+[6/16/26, 2:36:07 PM] ~EUSA: You may arrange for the goods to be delivered directly to our warehouse at:浙江省金华市金东区金义综合保税区S2仓C区
+[6/16/26, 2:36:20 PM] ~EUSA: Once the goods arrive at our warehouse, we will arrange pickup and proceed with the shipping as planned.
+[6/16/26, 2:37:06 PM] Vlad: How far is your warehouse?
+[6/16/26, 2:38:05 PM] ~EUSA: The distance between Nantong (Jiangsu) and Yiwu (Zhejiang) is around 450–500 km by road, usually about 5–6 hours of trucking time.
+[6/16/26, 2:40:25 PM] Vlad: How much it will cost?
+[6/16/26, 2:41:54 PM] ~EUSA: Let me quickly check this for you.
+[6/16/26, 2:53:25 PM] ~EUSA: I’ve checked the trucking cost for you.
+The total cost is around RMB 400, plus highway tolls of about RMB 100–200, so the estimated total is approximately RMB 500–600.
+This is about USD 73–88 (based on an exchange rate of 6.85).
+[6/16/26, 2:54:19 PM] ~EUSA: May I know if your supplier is ready for pickup this week, or is the cargo still being prepared?

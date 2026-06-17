@@ -1,0 +1,33 @@
+[6/15/26, 7:10:35 PM] ~快速通达货运代理----Henry: ‎Messages and calls are end-to-end encrypted. Only people in this chat can read, listen to, or share them.
+[6/15/26, 7:10:35 PM] ~快速通达货运代理----Henry:
+[6/15/26, 7:10:35 PM] Vlad: Hello! Can I get more info on this?
+[6/15/26, 7:10:41 PM] Vlad: Hi, please calculate the cheapest DDP sea shipping option (sea + truck) to the USA.
+
+Cargo location:
+Nantong, Jiangsu, China (near Shanghai)
+
+Destination:
+Business address
+Brooklyn, NY 11214, USA
+
+Cargo:
+200 bedding sets
+
+Total weight:
+560 kg
+
+Total volume:
+2.77 CBM
+
+One bedding set:
+2.8 kg
+40.5 × 38 × 9 cm
+
+Please provide:
+- Total DDP shipping cost
+- Transit time
+- Confirmation that the quote includes door delivery, customs clearance, duties, and taxes
+[6/15/26, 9:47:23 PM] ~快速通达货运代理----Henry: 2.5 USD/kg   Ocean freight, door-to-door with all taxes included   Delivery time is about 30 business days. Based on the data you gave me, your total shipping cost would be around 1400 USD
+[6/16/26, 1:14:05 AM] ~快速通达货运代理----Henry: When do you plan to ship it
+[6/16/26, 9:05:44 AM] Vlad: In about 1 week. But your quote is very high.
+[6/16/26, 12:52:40 PM] ~快速通达货运代理----Henry: This one was shipped through LA customs, so it got here pretty fast. If it went directly from the US East Coast, it would take two months before we could receive it

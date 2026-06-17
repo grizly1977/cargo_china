@@ -39,6 +39,20 @@ body {
   font-size: 1.6rem;
 }
 
+.lang-switch {
+  margin: 0 0 10px;
+  font-size: 0.85rem;
+}
+
+.lang-switch a {
+  color: var(--text-dim);
+  text-decoration: none;
+}
+
+.lang-switch a:hover {
+  text-decoration: underline;
+}
+
 .subtitle {
   color: var(--text-dim);
   margin: 0;

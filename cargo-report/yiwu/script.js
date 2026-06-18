@@ -1,32 +1,39 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-  /* ---------- Track real topbar height (it wraps to extra rows on narrow screens) ---------- */
-  const topbar = document.querySelector('.topbar');
-  if (topbar) {
-    const setTopbarHeight = () => {
-      document.documentElement.style.setProperty('--topbar-h', `${topbar.offsetHeight}px`);
-    };
-    setTopbarHeight();
-    window.addEventListener('resize', setTopbarHeight);
-    window.addEventListener('orientationchange', setTopbarHeight);
-    if ('ResizeObserver' in window) {
-      new ResizeObserver(setTopbarHeight).observe(topbar);
-    }
-  }
-
-  /* ---------- Mobile nav toggle ---------- */
+  /* ---------- Off-canvas menu (icon-only top bar) ---------- */
   const navToggle = document.getElementById('navToggle');
-  const sidebar = document.getElementById('sidebar');
-  if (navToggle && sidebar) {
+  const navClose = document.getElementById('navClose');
+  const navPanel = document.getElementById('navPanel');
+  const navBackdrop = document.getElementById('navBackdrop');
+  let closeNavPanel = () => {};
+
+  if (navToggle && navPanel && navBackdrop) {
     const setNavOpen = (open) => {
-      sidebar.classList.toggle('open', open);
+      navPanel.classList.toggle('open', open);
+      navBackdrop.classList.toggle('show', open);
+      navToggle.classList.toggle('open', open);
       navToggle.setAttribute('aria-expanded', String(open));
-      navToggle.textContent = open ? '✕' : '☰';
-      navToggle.setAttribute('aria-label', open ? 'Закрыть меню разделов' : 'Открыть меню разделов');
+      navPanel.setAttribute('aria-hidden', String(!open));
+      navPanel.toggleAttribute('inert', !open);
+      if (open) {
+        (navClose || navPanel).focus();
+      } else {
+        navToggle.focus();
+      }
     };
-    navToggle.addEventListener('click', () => setNavOpen(!sidebar.classList.contains('open')));
-    sidebar.querySelectorAll('.nav-link').forEach(link => {
-      link.addEventListener('click', () => setNavOpen(false));
+
+    closeNavPanel = () => setNavOpen(false);
+
+    navToggle.addEventListener('click', () => setNavOpen(!navPanel.classList.contains('open')));
+    navClose?.addEventListener('click', () => setNavOpen(false));
+    navBackdrop.addEventListener('click', () => setNavOpen(false));
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && navPanel.classList.contains('open')) setNavOpen(false);
+    });
+
+    navPanel.querySelectorAll('.nav-link, .topic-btn').forEach(el => {
+      el.addEventListener('click', () => setNavOpen(false));
     });
   }
 
@@ -237,6 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
       e.preventDefault();
       currentIndex = (currentIndex + 1) % currentHits.length;
       focusHit(currentIndex);
+      closeNavPanel();
     }
   });
 });

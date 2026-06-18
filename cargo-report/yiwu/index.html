@@ -10,16 +10,28 @@
 
 <header class="topbar">
   <div class="topbar-inner">
-    <button class="nav-toggle" id="navToggle" aria-label="Открыть меню разделов">☰</button>
+    <button class="nav-toggle" id="navToggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="navPanel">
+      <span class="hamburger-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+</header>
+
+<div class="nav-backdrop" id="navBackdrop"></div>
+
+<aside class="nav-panel" id="navPanel" aria-hidden="true" aria-label="Меню отчета" inert>
+  <div class="nav-panel-header">
     <div class="brand">
       <span class="brand-title">Yiwu / Futian Market</span>
       <span class="brand-sub">Отчет для поездки · 18–22 июня 2026 · <a href="../index.html">← Cargo-отчет</a></span>
     </div>
-    <div class="search-wrap">
-      <input type="search" id="searchInput" placeholder="Поиск по отчету… (например: MOQ, District 2, DiDi)" aria-label="Поиск по странице">
-      <span id="searchCount" class="search-count"></span>
-    </div>
+    <button class="nav-close" id="navClose" aria-label="Закрыть меню">✕</button>
   </div>
+
+  <div class="search-wrap">
+    <input type="search" id="searchInput" placeholder="Поиск по отчету… (например: MOQ, District 2, DiDi)" aria-label="Поиск по странице">
+    <span id="searchCount" class="search-count"></span>
+  </div>
+
   <div class="topic-filters" id="topicFilters">
     <span class="topic-label">Быстрые темы:</span>
     <button class="topic-btn active" data-topic="all">Все</button>
@@ -29,26 +41,24 @@
     <button class="topic-btn" data-topic="markets">Рынки</button>
     <button class="topic-btn" data-topic="recommendations">Рекомендации</button>
   </div>
-</header>
+
+  <nav class="sidenav" aria-label="Навигация по разделам">
+    <a href="#summary" class="nav-link">Краткий вывод</a>
+    <a href="#priority" class="nav-link">Что делать первым делом</a>
+    <a href="#best-dates" class="nav-link">Лучшие даты</a>
+    <a href="#dates" class="nav-link">Праздники и график</a>
+    <a href="#routes" class="nav-link">Маршрут из Шанхая</a>
+    <a href="#taxi" class="nav-link">Куда ехать / DiDi</a>
+    <a href="#market-structure" class="nav-link">Как устроен рынок</a>
+    <a href="#districts" class="nav-link">Разбор дистриктов</a>
+    <a href="#prices" class="nav-link">Цены мелкого опта</a>
+    <a href="#plan" class="nav-link">План посещения</a>
+    <a href="#warnings" class="nav-link">Важные предупреждения</a>
+    <a href="#sources" class="nav-link">Источники</a>
+  </nav>
+</aside>
 
 <div class="layout">
-  <aside class="sidebar" id="sidebar">
-    <nav class="sidenav" aria-label="Навигация по разделам">
-      <a href="#summary" class="nav-link">Краткий вывод</a>
-      <a href="#priority" class="nav-link">Что делать первым делом</a>
-      <a href="#best-dates" class="nav-link">Лучшие даты</a>
-      <a href="#dates" class="nav-link">Праздники и график</a>
-      <a href="#routes" class="nav-link">Маршрут из Шанхая</a>
-      <a href="#taxi" class="nav-link">Куда ехать / DiDi</a>
-      <a href="#market-structure" class="nav-link">Как устроен рынок</a>
-      <a href="#districts" class="nav-link">Разбор дистриктов</a>
-      <a href="#prices" class="nav-link">Цены мелкого опта</a>
-      <a href="#plan" class="nav-link">План посещения</a>
-      <a href="#warnings" class="nav-link">Важные предупреждения</a>
-      <a href="#sources" class="nav-link">Источники</a>
-    </nav>
-  </aside>
-
   <main class="content" id="content">
 
     <section id="summary" class="card" data-topics="dates routes markets recommendations">

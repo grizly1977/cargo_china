@@ -28,6 +28,7 @@ body {
   background: var(--bg);
   color: var(--text);
   line-height: 1.55;
+  overflow-x: hidden;
 }
 
 /* ---------- Topbar ---------- */
@@ -368,6 +369,16 @@ mark.search-hit.current { background: var(--accent); color: #fff; }
 
   .nav-toggle { display: inline-block; }
 
+  .topic-filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 6px 14px 10px;
+  }
+  .topic-filters::-webkit-scrollbar { display: none; }
+  .topic-label, .topic-btn { flex: 0 0 auto; }
+
   .sidebar {
     position: static;
     width: 100%;
@@ -408,9 +419,10 @@ mark.search-hit.current { background: var(--accent); color: #fff; }
 }
 
 @media (max-width: 640px) {
-  .topbar-inner { flex-wrap: wrap; }
+  .topbar-inner { flex-wrap: wrap; padding: 10px 14px; gap: 10px; }
   .search-wrap { order: 3; flex: 1 1 100%; margin-left: 0; }
-  .brand { flex: 1 1 auto; }
+  .brand { flex: 1 1 auto; min-width: 0; }
+  .brand-sub { font-size: 0.72rem; }
   .card { padding: 18px 16px; }
   .card h2 { font-size: 1.2rem; }
   table.addr-table th { width: 110px; }

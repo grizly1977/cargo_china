@@ -1,5 +1,19 @@
 document.addEventListener('DOMContentLoaded', () => {
 
+  /* ---------- Track real topbar height (it wraps to extra rows on narrow screens) ---------- */
+  const topbar = document.querySelector('.topbar');
+  if (topbar) {
+    const setTopbarHeight = () => {
+      document.documentElement.style.setProperty('--topbar-h', `${topbar.offsetHeight}px`);
+    };
+    setTopbarHeight();
+    window.addEventListener('resize', setTopbarHeight);
+    window.addEventListener('orientationchange', setTopbarHeight);
+    if ('ResizeObserver' in window) {
+      new ResizeObserver(setTopbarHeight).observe(topbar);
+    }
+  }
+
   /* ---------- Mobile nav toggle ---------- */
   const navToggle = document.getElementById('navToggle');
   const sidebar = document.getElementById('sidebar');

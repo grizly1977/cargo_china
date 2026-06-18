@@ -4,9 +4,15 @@ document.addEventListener('DOMContentLoaded', () => {
   const navToggle = document.getElementById('navToggle');
   const sidebar = document.getElementById('sidebar');
   if (navToggle && sidebar) {
-    navToggle.addEventListener('click', () => sidebar.classList.toggle('open'));
+    const setNavOpen = (open) => {
+      sidebar.classList.toggle('open', open);
+      navToggle.setAttribute('aria-expanded', String(open));
+      navToggle.textContent = open ? '✕' : '☰';
+      navToggle.setAttribute('aria-label', open ? 'Закрыть меню разделов' : 'Открыть меню разделов');
+    };
+    navToggle.addEventListener('click', () => setNavOpen(!sidebar.classList.contains('open')));
     sidebar.querySelectorAll('.nav-link').forEach(link => {
-      link.addEventListener('click', () => sidebar.classList.remove('open'));
+      link.addEventListener('click', () => setNavOpen(false));
     });
   }
 

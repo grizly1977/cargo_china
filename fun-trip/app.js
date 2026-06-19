@@ -75,7 +75,14 @@ function inRange(value, rangeStr) {
   return value >= parts[0] && value <= parts[1];
 }
 
+function getSearchQuery() {
+  return document.getElementById("ride-search").value.trim().toLowerCase();
+}
+
 function passesFilters(ride) {
+  const query = getSearchQuery();
+  if (query && ride.name.toLowerCase().indexOf(query) === -1 && ride.chineseName.indexOf(query) === -1) return false;
+
   const rain = getActiveValues("rain");
   if (rain.length && rain.indexOf(ride.rainStatus) === -1) return false;
 
@@ -432,6 +439,21 @@ document.getElementById("filters-panel").addEventListener("click", function (e) 
 
 document.getElementById("reset-filters").addEventListener("click", function () {
   document.querySelectorAll("#filters-panel .chip.active").forEach(function (c) { c.classList.remove("active"); });
+  document.getElementById("ride-search").value = "";
+  document.getElementById("search-clear").hidden = true;
+  renderCards();
+});
+
+document.getElementById("ride-search").addEventListener("input", function () {
+  document.getElementById("search-clear").hidden = !this.value;
+  renderCards();
+});
+
+document.getElementById("search-clear").addEventListener("click", function () {
+  const input = document.getElementById("ride-search");
+  input.value = "";
+  this.hidden = true;
+  input.focus();
   renderCards();
 });
 

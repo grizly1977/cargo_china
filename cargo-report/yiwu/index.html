@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yiwu / Futian Market — отчет для поездки 18-22 июня 2026</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <button class="nav-toggle" id="navToggle" aria-label="Открыть меню" aria-expanded="false" aria-controls="navPanel">
+      <span class="hamburger-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+</header>
+
+<div class="nav-backdrop" id="navBackdrop"></div>
+
+<aside class="nav-panel" id="navPanel" aria-hidden="true" aria-label="Меню отчета" inert>
+  <div class="nav-panel-header">
+    <div class="brand">
+      <span class="brand-title">Yiwu / Futian Market</span>
+      <span class="brand-sub">Отчет для поездки · 18–22 июня 2026 · <a href="../index.html">← Cargo-отчет</a></span>
+    </div>
+    <button class="nav-close" id="navClose" aria-label="Закрыть меню">✕</button>
+  </div>
+
+  <div class="search-wrap">
+    <input type="search" id="searchInput" placeholder="Поиск по отчету… (например: MOQ, District 2, DiDi)" aria-label="Поиск по странице">
+    <span id="searchCount" class="search-count"></span>
+  </div>
+
+  <div class="topic-filters" id="topicFilters">
+    <span class="topic-label">Быстрые темы:</span>
+    <button class="topic-btn active" data-topic="all">Все</button>
+    <button class="topic-btn" data-topic="dates">Даты</button>
+    <button class="topic-btn" data-topic="routes">Маршруты</button>
+    <button class="topic-btn" data-topic="addresses">Адреса</button>
+    <button class="topic-btn" data-topic="markets">Рынки</button>
+    <button class="topic-btn" data-topic="recommendations">Рекомендации</button>
+  </div>
+
+  <nav class="sidenav" aria-label="Навигация по разделам">
+    <a href="#summary" class="nav-link">Краткий вывод</a>
+    <a href="#priority" class="nav-link">Что делать первым делом</a>
+    <a href="#best-dates" class="nav-link">Лучшие даты</a>
+    <a href="#dates" class="nav-link">Праздники и график</a>
+    <a href="#routes" class="nav-link">Маршрут из Шанхая</a>
+    <a href="#taxi" class="nav-link">Куда ехать / DiDi</a>
+    <a href="#market-structure" class="nav-link">Как устроен рынок</a>
+    <a href="#districts" class="nav-link">Разбор дистриктов</a>
+    <a href="#prices" class="nav-link">Цены мелкого опта</a>
+    <a href="#plan" class="nav-link">План посещения</a>
+    <a href="#warnings" class="nav-link">Важные предупреждения</a>
+    <a href="#sources" class="nav-link">Источники</a>
+  </nav>
+</aside>
+
+<div class="layout">
+  <main class="content" id="content">
+
+    <section id="summary" class="card" data-topics="dates routes markets recommendations">
+      <h2>Краткий вывод</h2>
+      <p>Да, <strong>в Иу стоит ехать именно за мелким оптом</strong>, если задача — не завод за пределами города, а быстрый поиск категорий, сравнение десятков поставщиков вживую, образцы, контакты и понимание реального MOQ, упаковки и кастомизации. Yiwu International Trade City — крупный офлайн-комплекс по категориям от игрушек и бижутерии до фурнитуры, домашнего текстиля и автоаксессуаров. Часть продавцов реально поддерживает смешанный опт, one-piece wholesale и небольшие тестовые партии.</p>
+      <div class="callout warning">
+        <strong>Но не весь рынок — «розница под видом опта».</strong> В отдельных категориях MOQ всё ещё высокий, а часть павильонов — это шоурумы или торговые компании, а не сама фабрика.
+      </div>
+      <p>Если едете впервые и <strong>без узкой товарной специализации</strong>: практический минимум — <strong>2 полноценных рабочих дня</strong>, комфортный первый заход — <strong>3 дня</strong>. Один день годится только на разведку 1–2 соседних дистриктов. Рынок слишком велик, чтобы пытаться «обойти всё».</p>
+      <div class="callout highlight">
+        <strong>Итог в одной фразе:</strong> ехать стоит, но не «на праздник посмотреть», а на рабочий день — лучше <strong>22 июня</strong>, из Шанхая через <strong>Shanghai Hongqiao Railway Station</strong> до <strong>Yiwu Railway Station</strong>. Первый вход без узкой специализации — <strong>District 1, Gate 2</strong>, рядом с клиентским центром.
+      </div>
+    </section>
+
+    <section id="priority" class="card highlight-card" data-topics="recommendations dates routes">
+      <h2>✅ Что делать в первую очередь</h2>
+      <ol class="priority-list">
+        <li><strong>Выбрать дату:</strong> основной день закупки — <strong>22 июня</strong> (понедельник), запасной — <strong>18 июня</strong> (четверг). 19–21 июня (Dragon Boat Festival) — только разведка, не основной закупочный день.</li>
+        <li><strong>Купить билет на HSR:</strong> Shanghai Hongqiao Railway Station → Yiwu Railway Station, в пути ~1ч20м–2ч10м.</li>
+        <li><strong>Запас времени на вокзале:</strong> 45–60 минут до отправления в обычные дни, 60–90 минут — в праздничные даты или рядом с ними.</li>
+        <li><strong>По прибытии — DiDi до рынка:</strong> ~20–25 минут, ориентир по цене CNY 30–40.</li>
+        <li><strong>Без узкой специализации — стартуйте с District 1, Gate 2</strong> (клиентский центр расположен напротив входа).</li>
+        <li><strong>Приходите к 9:00</strong> и завершайте основные переговоры <strong>до 16:30</strong> — это безопасное окно по факту работы клиентских центров и витрин.</li>
+        <li><strong>Не пытайтесь обойти весь рынок за один день.</strong> Заранее выберите 1–2 дистрикта под свою товарную категорию (см. план посещения).</li>
+        <li><strong>Собирайте контакты, фото образцов и номера павильонов (booth number).</strong> Лучшая стратегия первой поездки — не «купить много сразу», а собрать 20–40 валидных контактов и сделать повторный заход к 3–5 лучшим поставщикам.</li>
+        <li><strong>Проверяйте тип продавца</strong> перед заказом: «自有工厂 / 生产厂家» (своя фабрика/производитель) против «经销批发» (дистрибьютор/опт) — это сильно влияет на цену, кастомизацию и повторяемость заказа.</li>
+      </ol>
+    </section>
+
+    <section id="best-dates" class="card" data-topics="dates recommendations">
+      <h2>📅 Лучшие даты для поездки</h2>
+      <div class="callout warning">
+        Официально <strong>端午节 / Dragon Boat Festival в Китае установлен на 19–21 июня 2026</strong> (пятница–воскресенье, 3 дня без отработки). Отдельного приказа о закрытии Yiwu International Trade City на эти даты не найдено, но в праздники типична сниженная явка продавцов и более слабая переговорная динамика.
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Дата</th><th>День недели</th><th>Статус</th><th>Рекомендация</th></tr></thead>
+          <tbody>
+            <tr class="row-good"><td>18 июня 2026</td><td>Четверг</td><td>Рабочий день</td><td>Хороший вариант — зайти до праздников</td></tr>
+            <tr class="row-bad"><td>19 июня 2026</td><td>Пятница</td><td>端午节 (праздник)</td><td>Риск: только для разведки</td></tr>
+            <tr class="row-bad"><td>20 июня 2026</td><td>Субботта</td><td>端午节 (праздник)</td><td>Риск: только для разведки</td></tr>
+            <tr class="row-bad"><td>21 июня 2026</td><td>Воскресенье</td><td>端午节 (праздник)</td><td>Риск: только для разведки</td></tr>
+            <tr class="row-best"><td>22 июня 2026</td><td>Понедельник</td><td>Рабочий день, сразу после праздника</td><td><strong>Лучший выбор для полноценной закупки</strong></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="muted">На Spring Festival рынок публикует отдельные официальные приказы о закрытии по зонам — на 端午节 такого приказа на доступных официальных страницах не найдено. Клиентская поддержка Chinagoods указывает режим работы 7 дней в неделю, 8:30–17:00, что повышает вероятность того, что комплекс физически открыт, но не гарантирует полную явку продавцов.</p>
+    </section>
+
+    <section id="dates" class="card" data-topics="dates">
+      <h2>Праздники и график в даты поездки</h2>
+      <p>Официальное уведомление Госсовета КНР по праздникам на 2026 год прямо указывает, что 端午节 / Dragon Boat Festival выпадает на <strong>19–21 июня 2026 года</strong>, с пятницы по воскресенье, всего 3 дня без дополнительной отработки.</p>
+      <p>По самому рынку ситуация менее «бумажно-очевидная». На официальных страницах Yiwu International Trade City и Chinagoods отдельного приказа о закрытии рынка на 端午节 2026 не найдено — в то время как на Spring Festival такие приказы публикуются отдельно и заранее, со списком дат закрытия и открытия по зонам. Параллельно у клиентской поддержки Chinagoods указан режим <strong>понедельник–воскресенье, 8:30–17:00</strong>.</p>
+      <p>Практически это означает: <strong>19, 20 и 21 июня</strong> нельзя считать надёжными пиковыми рабочими днями для первой поездки. Для рынка такого масштаба праздничные дни обычно означают больше неопределённости по людям и переговорам, даже если двери физически не закрыты.</p>
+      <div class="callout highlight">
+        <strong>Лучшие дни в диапазоне:</strong>
+        <ul>
+          <li><strong>22 июня, понедельник</strong> — лучший выбор для полноценной закупки.</li>
+          <li><strong>18 июня, четверг</strong> — хороший выбор, если хочется зайти до праздников.</li>
+          <li><strong>19–21 июня</strong> — допустимо для разведки, но хуже для первой серьёзной поездки и переговоров.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="routes" class="card" data-topics="routes addresses">
+      <h2>Маршрут из Шанхая</h2>
+
+      <h3>Лучший маршрут по железной дороге</h3>
+      <p>Оптимальная схема: <strong>Shanghai Hongqiao Railway Station → Yiwu Railway Station → DiDi до нужного дистрикта рынка</strong>. Hongqiao — крупнейший шанхайский узел для высокоскоростных поездов с наибольшим числом прямых рейсов на Yiwu. Типовая продолжительность поездки по HSR — примерно <strong>1 ч 20 мин – 2 ч 10 мин</strong>.</p>
+
+      <div class="address-card" data-topics="addresses routes">
+        <h4>🚉 Станция отправления из Шанхая</h4>
+        <table class="addr-table">
+          <tr><th>English name</th><td>Shanghai Hongqiao Railway Station</td></tr>
+          <tr><th>Chinese name</th><td class="copy-row"><code class="copy-text">上海虹桥站 / 上海虹桥火车站</code><button class="copy-btn" data-copy="上海虹桥站">📋</button></td></tr>
+          <tr><th>Chinese address</th><td class="copy-row"><code class="copy-text">上海市闵行区申贵路1500号</code><button class="copy-btn" data-copy="上海市闵行区申贵路1500号">📋</button></td></tr>
+          <tr><th>English address</th><td>No. 1500 Shengui Road, Minhang District, Shanghai</td></tr>
+        </table>
+        <p class="muted">Закладывайте на Hongqiao минимум <strong>45–60 минут запаса</strong> до отправления, в праздничные даты или рядом с ними — лучше <strong>60–90 минут</strong>.</p>
+      </div>
+
+      <h3>Какая станция прибытия в Yiwu лучше</h3>
+      <p>Yiwu Railway Station / 义乌站 — главный и на практике лучший вокзал прибытия для Futian Market. Обслуживает обычные поезда и G/D high-speed trains, расположен примерно в 10 км к северо-западу от центра Yiwu.</p>
+
+      <div class="address-card" data-topics="addresses routes">
+        <h4>🚉 Станция прибытия</h4>
+        <table class="addr-table">
+          <tr><th>English name</th><td>Yiwu Railway Station / Yiwu Station</td></tr>
+          <tr><th>Chinese name</th><td class="copy-row"><code class="copy-text">义乌站</code><button class="copy-btn" data-copy="义乌站">📋</button></td></tr>
+          <tr><th>Chinese address</th><td class="copy-row"><code class="copy-text">义乌市后宅街道北站大道333号</code><button class="copy-btn" data-copy="义乌市后宅街道北站大道333号">📋</button></td></tr>
+          <tr><th>English address</th><td>No. 333 Beizhan Avenue, Houzhai Subdistrict, Yiwu, Jinhua, Zhejiang</td></tr>
+          <tr><th>Почему оптимальна</th><td>Сюда приходят HSR из Шанхая, далее до International Trade City ехать на DiDi примерно 20–25 минут.</td></tr>
+        </table>
+      </div>
+
+      <h3>Последний участок: от Yiwu Station до Futian Market</h3>
+      <p>Такси/DiDi от Yiwu Railway Station до Yiwu International Trade City обычно занимает около <strong>20–25 минут</strong>, реальный диапазон цены — примерно <strong>CNY 28–36</strong> в одну сторону. Консервативная плановая цифра для закупщика: <strong>CNY 30–40</strong>.</p>
+    </section>
+
+    <section id="taxi" class="card" data-topics="addresses routes markets">
+      <h2>🚕 Куда ехать и что вбивать в такси / DiDi</h2>
+      <p class="muted">Для китайских карт и DiDi почти всегда важнее <strong>POI на китайском</strong>, чем английский адрес. Нажмите на значок 📋, чтобы скопировать текст.</p>
+
+      <div class="taxi-grid">
+
+        <div class="address-card" data-topics="addresses markets">
+          <h4>Yiwu International Trade City (общий POI)</h4>
+          <p>Если ещё не решили, в какой дистрикт ехать первым.</p>
+          <div class="copy-row"><code class="copy-text">义乌国际商贸城</code><button class="copy-btn" data-copy="义乌国际商贸城">📋</button></div>
+        </div>
+
+        <div class="address-card" data-topics="addresses markets">
+          <h4>Futian Market</h4>
+          <p>Разговорное международное название того же комплекса Yiwu International Trade City — не отдельный рынок. В DiDi надёжнее вводить точный дистрикт.</p>
+          <div class="copy-row"><code class="copy-text">福田市场</code><button class="copy-btn" data-copy="福田市场">📋</button></div>
+          <div class="copy-row"><code class="copy-text">义乌福田国际商贸城</code><button class="copy-btn" data-copy="义乌福田国际商贸城">📋</button></div>
+        </div>
+
+        <div class="address-card highlight-card" data-topics="addresses markets recommendations">
+          <h4>District 1 — рекомендован для первого визита без специализации</h4>
+          <p>Toys, artificial flowers, jewelry, crafts. Клиентский центр напротив Gate 2.</p>
+          <div class="copy-row"><code class="copy-text">义乌国际商贸城一区</code><button class="copy-btn" data-copy="义乌国际商贸城一区">📋</button></div>
+          <div class="copy-row"><code class="copy-text">一区2号门</code><button class="copy-btn" data-copy="一区2号门">📋</button></div>
+          <div class="copy-row"><code class="copy-text">国际商贸城一区东</code><button class="copy-btn" data-copy="国际商贸城一区东">📋</button></div>
+        </div>
+
+        <div class="address-card" data-topics="addresses markets">
+          <h4>District 2 — bags, hardware, locks, electrical, small appliances</h4>
+          <div class="copy-row"><code class="copy-text">义乌国际商贸城二区</code><button class="copy-btn" data-copy="义乌国际商贸城二区">📋</button></div>
+          <div class="copy-row"><code class="copy-text">二区33号门</code><button class="copy-btn" data-copy="二区33号门">📋</button></div>
+        </div>
+
+        <div class="address-card" data-topics="addresses markets">
+          <h4>District 3 — stationery, sports, cosmetics, zippers, buttons</h4>
+          <div class="copy-row"><code class="copy-text">义乌国际商贸城三区</code><button class="copy-btn" data-copy="义乌国际商贸城三区">📋</button></div>
+        </div>
+
+        <div class="address-card" data-topics="addresses markets">
+          <h4>District 4 — socks, gloves, scarves, underwear</h4>
+          <div class="copy-row"><code class="copy-text">义乌国际商贸城四区</code><button class="copy-btn" data-copy="义乌国际商贸城四区">📋</button></div>
+          <div class="copy-row"><code class="copy-text">四区75号门</code><button class="copy-btn" data-copy="四区75号门">📋</button></div>
+          <div class="copy-row"><code class="copy-text">四区西北门</code><button class="copy-btn" data-copy="四区西北门">📋</button></div>
+        </div>
+
+        <div class="address-card" data-topics="addresses markets">
+          <h4>District 5 — bedding, curtains, textiles, imported goods, car accessories</h4>
+          <div class="copy-row"><code class="copy-text">义乌国际商贸城五区</code><button class="copy-btn" data-copy="义乌国际商贸城五区">📋</button></div>
+          <div class="copy-row"><code class="copy-text">五区南大门</code><button class="copy-btn" data-copy="五区南大门">📋</button></div>
+        </div>
+
+      </div>
+
+      <h3>Какой вход лучше для первого визита</h3>
+      <p>Для первого визита без жёстко заданной категории рекомендуется стартовать через <strong>District 1, Gate 2</strong> — там расположен официальный клиентский центр, а сам блок один из самых понятных: игрушки, искусственные цветы, бижутерия, gift/craft-сегмент. Если профиль сразу уходит в hardware/bags — стартуйте через <strong>District 2, Gate 33</strong>.</p>
+    </section>
+
+    <section id="market-structure" class="card" data-topics="markets">
+      <h2>Как устроен рынок</h2>
+      <p>Yiwu International Trade City, Futian Market и 义乌国际商贸城 — это, в практическом смысле, <strong>один большой торговый комплекс</strong>, а не три разных рынка. «Futian Market» — международно распространённое имя, официальные китайские страницы описывают систему как связанные между собой <strong>District 1–5</strong>, каждый со своей отраслевой логикой.</p>
+
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Дистрикт</th><th>Основные категории</th><th>Кому нужен</th></tr></thead>
+          <tbody>
+            <tr><td><strong>District 1 / 一区</strong></td><td>Искусственные цветы, аксессуары к ним, плюшевые/надувные/электронные игрушки, аксессуары для волос, бижутерия, крафты, рамки, сувениры</td><td>Impulse-goods, gifts, fashion accessories, toy/sample-heavy категории</td></tr>
+            <tr><td><strong>District 2 / 二区</strong></td><td>Сумки, зонты, дождевики, hardware, замки, электротовары, инструменты, кухонная/банная фурнитура, мелкая бытовая техника, часы, электроника</td><td>Utilitarian goods, магазины бытовых/хозяйственных товаров</td></tr>
+            <tr><td><strong>District 3 / 三区</strong></td><td>Канцелярия, школьные и офисные товары, спортивные товары, косметика, оптика, молнии, пуговицы, фурнитура для одежды</td><td>School, office, sports, beauty, apparel accessory</td></tr>
+            <tr><td><strong>District 4 / 四区</strong></td><td>Носки, повседневные товары, перчатки, шапки, трикотаж, обувь, ленты/шнурки, галстуки, полотенца, ремни, шарфы, бельё</td><td>Fast-moving apparel basics, текстильные расходники</td></tr>
+            <tr><td><strong>District 5 / 五区</strong></td><td>Импортные товары, постельное бельё, занавески/текстиль, сырьё для трикотажа, товары для гостиниц, автоаксессуары, товары для животных/аквариумов, e-commerce сервисы</td><td>Home textile, imported grocery, car accessories, сервисная экосистема</td></tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="callout warning">
+        Рынок удобнее воспринимать <strong>не как пять случайных зданий, а как пять тематических блоков</strong>, где в один день реально работать только по близким категориям. 1 день — только 1–2 соседних дистрикта. 2 дня — соседние блоки по теме. 3 дня — добавляется повторный проход для проверки MOQ, упаковки, сроков и вариаций.
+      </div>
+    </section>
+
+    <section id="districts" class="card" data-topics="markets addresses">
+      <h2>Разбор дистриктов</h2>
+
+      <details open>
+        <summary><h3>District 1 — игрушки, цветы, бижутерия, крафты</h3></summary>
+        <p>Самый «легко считываемый» первый блок рынка. 1F — искусственные цветы и аксессуары к ним, игрушки. 2F — головные аксессуары и бижутерия. 3F — праздничные и декоративные крафты, керамика, кристалл, туристические сувениры, рамки. 4F — factory direct sales center.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Этаж</th><th>Категория</th><th>Что продаётся</th><th>Подходит для мелкого опта</th><th>Примерный MOQ</th><th>Комментарий</th></tr></thead>
+            <tbody>
+              <tr><td>1F</td><td>Flower &amp; floral accessories</td><td>仿真花, flower accessories</td><td class="yes">Да</td><td>от 1 шт., по факту лучше считать от десятков/сотен</td><td>Хорош для визуального отбора и тестовых образцов</td></tr>
+              <tr><td>1F</td><td>Toys</td><td>plush, inflatable, electronic, basic toys</td><td class="maybe">Зависит от SKU</td><td>от 1–200+, иногда коробками</td><td>Разброс MOQ большой</td></tr>
+              <tr><td>2F</td><td>Hair accessories &amp; jewelry</td><td>headbands, earrings, bracelets, budget jewelry</td><td class="yes">Очень да</td><td>от 1 шт. до мелких mixed lots</td><td>Один из самых дружественных блоков для мелкого опта</td></tr>
+              <tr><td>3F</td><td>Crafts &amp; frames</td><td>photo frames, decorative crafts, souvenirs</td><td class="yes">Да</td><td>от 30–100+</td><td>Важны упаковка и брак</td></tr>
+              <tr><td>4F</td><td>Factory direct center</td><td>factory showrooms, higher-grade craft and jewelry</td><td class="maybe">Частично</td><td>часто выше, чем на 1–3 этажах</td><td>Лучше для серьёзного заказа, чем для импульсной закупки</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+
+      <details>
+        <summary><h3>District 2 — сумки, hardware, электротовары</h3></summary>
+        <p>Более «рабочий» и менее «туристический» блок. Для поиска поставщиков на мелкий опт полезен, но именно здесь чаще встречаются продавцы, неохотно обсуждающие маленький заказ — особенно по hardware и utility-категориям.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Этаж</th><th>Категория</th><th>Что продаётся</th><th>Подходит для мелкого опта</th><th>Примерный MOQ</th><th>Комментарий</th></tr></thead>
+            <tbody>
+              <tr><td>1F</td><td>Bags &amp; travel goods</td><td>backpacks, children bags, tote bags, luggage</td><td class="yes">Да</td><td>от 1–100+, иногда коробками</td><td>Один из лучших блоков для поиска bag suppliers</td></tr>
+              <tr><td>1F</td><td>Umbrellas &amp; rain products</td><td>umbrellas, ponchos, rainwear</td><td class="maybe">Зависит от сезонности</td><td>обычно от мелкой коробки</td><td>Категория сильно сезонная</td></tr>
+              <tr><td>2F</td><td>Hardware &amp; locks</td><td>drawer locks, padlocks, door hardware</td><td class="no">Ограниченно</td><td>от 1000 у части SKU, но встречается one-piece</td><td>На земле часто жёстче, чем в онлайн-карточке</td></tr>
+              <tr><td>2F</td><td>Electrical/tools</td><td>electrical products, tools, fan motors, repair parts</td><td class="maybe">Средне</td><td>от десятков до сотен, нередко выше</td><td>Сначала уточняйте сертификацию и voltage</td></tr>
+              <tr><td>3F</td><td>Kitchen/bath hardware &amp; small appliances</td><td>kitchenware, small electricals, clocks</td><td class="maybe">Средне</td><td>от десятков до сотен</td><td>Хорошо для B2B магазинов household goods</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="callout warning">Пользовательский отзыв в Amap по District 2 жалуется, что по некоторым SKU продавцы настаивают на крупном объёме («拿过万»).</div>
+      </details>
+
+      <details>
+        <summary><h3>District 3 — канцелярия, спорт, косметика, фурнитура для одежды</h3></summary>
+        <p>Полезен на пересечении stationery / office / school / sports / beauty / garment accessories. 1F — paper/stationery и eyewear, 2F — office and sports/recreation, 3F — cosmetics плюс zippers, buttons и apparel accessories.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Этаж</th><th>Категория</th><th>Что продаётся</th><th>Подходит для мелкого опта</th><th>Примерный MOQ</th><th>Комментарий</th></tr></thead>
+            <tbody>
+              <tr><td>1F</td><td>Eyewear</td><td>sunglasses, optical frames, reading glasses</td><td class="yes">Да</td><td>от 1–300+, зависит от модели</td><td>Удобно брать mixed samples, проверяйте качество линз</td></tr>
+              <tr><td>1F–2F</td><td>Stationery</td><td>erasers, office/school supplies</td><td class="yes">Очень да</td><td>от 1 шт. до коробок</td><td>Хороший дистрикт для небольшого запуска</td></tr>
+              <tr><td>2F</td><td>Sports</td><td>jump ropes, fitness accessories, gloves</td><td class="yes">Да</td><td>от 1–200+</td><td>Хорош для недорогих fitness goods</td></tr>
+              <tr><td>3F</td><td>Cosmetics</td><td>lipstick, eyeshadow, foundation, mascara</td><td class="maybe">Средне</td><td>от 1 шт. онлайн до коробок/брендовых MOQ офлайн</td><td>Обязательно проверяйте compliance и документы</td></tr>
+              <tr><td>3F</td><td>Zippers, buttons, garment trims</td><td>zippers, metal/plastic/resin buttons</td><td class="yes">Да</td><td>от 100–2000+, зависит от типа</td><td>Очень полезно для apparel supply chain</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+
+      <details>
+        <summary><h3>District 4 — носки, перчатки, бельё, текстильные расходники</h3></summary>
+        <p>1F — socks, 2F — day-to-day goods, gloves, hats, knitwear, 3F — shoes, ribbons, ties, yarn, towels, 4F — belts, accessories, scarves, bras and underwear. Один из наиболее практичных дистриктов для регулярного мелкого опта.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Этаж</th><th>Категория</th><th>Что продаётся</th><th>Подходит для мелкого опта</th><th>Примерный MOQ</th><th>Комментарий</th></tr></thead>
+            <tbody>
+              <tr><td>1F</td><td>Socks</td><td>adult socks, children socks, logo socks</td><td class="yes">Очень да</td><td>от 12 пар до крупных коробок</td><td>Один из лучших блоков для fast-moving basics</td></tr>
+              <tr><td>2F</td><td>Gloves</td><td>disposable, household, protective gloves</td><td class="maybe">Да</td><td>от 2000+ у disposable SKU, зависит от типа</td><td>Хорош для B2B и массового ритейла</td></tr>
+              <tr><td>3F</td><td>Towels / accessories</td><td>towels, soft textile basics, laces, ties</td><td class="yes">Да</td><td>от 1–100+</td><td>Полезно как сопутствующий блок</td></tr>
+              <tr><td>4F</td><td>Scarves / belts / underwear</td><td>scarves, bras, panties, belts</td><td class="yes">Да</td><td>от 1–30+, бывает 500–1000 по фабричным SKU</td><td>Для fashion basics и недорогого белья очень продуктивно</td></tr>
+              <tr><td>5F</td><td>Direct sales / tourism center</td><td>factory and service functions</td><td class="maybe">Частично</td><td>зависит от продавца</td><td>Не core-floor для первого быстрого обхода</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+
+      <details>
+        <summary><h3>District 5 — импорт, текстиль, авто, e-commerce</h3></summary>
+        <p>1F — Yiwu China Imported Goods City, выше — bedding, hair products, knitted/woven textiles включая curtain fabrics, wedding goods, сырьё для трикотажа, hotel supplies, auto accessories and parts, pet/aquarium goods, 5F — e-commerce service area.</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Этаж</th><th>Категория</th><th>Что продаётся</th><th>Подходит для мелкого опта</th><th>Примерный MOQ</th><th>Комментарий</th></tr></thead>
+            <tbody>
+              <tr><td>1F</td><td>Imported goods</td><td>imported snacks, drinks, health goods, daily-use imports</td><td class="yes">Да</td><td>от 1–24+, зависит от SKU/коробки</td><td>Удобно для теста ассортимента</td></tr>
+              <tr><td>2F</td><td>Bedding</td><td>pillows, quilts, 3-piece and 4-piece sets</td><td class="maybe">Средне</td><td>от 11+ до коробок</td><td>По bedding sample-check обязателен</td></tr>
+              <tr><td>3F</td><td>Curtains / textiles</td><td>curtain fabrics and finished curtains</td><td class="maybe">Средне</td><td>от 1 до 600+, зависит от изделия и метража</td><td>Хорошо для интерьерного бизнеса</td></tr>
+              <tr><td>4F</td><td>Automotive accessories</td><td>car fragrance, interior accessories, car decor</td><td class="yes">Да</td><td>от 1–100+ до 500+</td><td>Сильный блок для автотоваров и gift auto accessories</td></tr>
+              <tr><td>5F</td><td>E-commerce services / mixed goods</td><td>e-commerce support and distribution services</td><td class="maybe">Полезно как сервис</td><td>не товарный MOQ</td><td>Важен для долгосрочной операционной схемы</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+
+      <div class="callout">
+        <h4>Что реально пишут посетители</h4>
+        <p>Рынок огромный, новичка легко «размазать» между зонами — это повторяется и в китайских «新手拿货攻略», и в Bilibili-разборах, и в международных гайдах. Для мелкого опта Yiwu подходит неравномерно: в District 1 и части District 3–4 часто встречаются one-piece, mixed-batch и тестовые SKU. В District 2 по utilitarian goods чаще встречается жёсткая оптовая логика.</p>
+        <p>Не все павильоны одинаково «фабричны» — у одних продавцов стоит <strong>自有工厂 / 生产厂家</strong> (своя фабрика/производитель), у других <strong>经销批发</strong> (дистрибьютор/опт). Первый тип полезнее под кастомизацию и повторяемые заказы, второй удобнее под быстрый добор и широкий ассортимент, но не всегда даёт лучшую цену.</p>
+      </div>
+    </section>
+
+    <section id="prices" class="card" data-topics="markets">
+      <h2>Цены мелкого опта и живые сигналы</h2>
+      <div class="callout warning">
+        Цена на Yiwu очень зависит от цвета, материала, упаковки, custom logo, сертификации, комплектации и формата покупки (витринный образец, коробка, смешанный лот, фабричный заказ). Воспринимайте цифры ниже как <strong>операционный диапазон для первого раунда переговоров</strong>, а не как универсальный прайс-лист.
+      </div>
+      <details>
+        <summary><h3>Таблица цен по карточкам реальных SKU (нажмите, чтобы развернуть)</h3></summary>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>District</th><th>Категория</th><th>Пример товара</th><th>Цена мелкого опта</th><th>Валюта</th><th>MOQ</th><th>Надёжность источника</th></tr></thead>
+            <tbody>
+              <tr><td>1</td><td>Jewelry</td><td>饰品 «377»</td><td>2.00</td><td>CNY</td><td>≥1</td><td>Высокий</td></tr>
+              <tr><td>1</td><td>Jewelry</td><td>аналогичная 饰品 позиция</td><td>2.00</td><td>CNY</td><td>≥1</td><td>Высокий</td></tr>
+              <tr><td>1</td><td>Plush toys</td><td>20cm plush coin pouch</td><td>10.00–22.00</td><td>CNY</td><td>500–3000</td><td>Высокий</td></tr>
+              <tr><td>1</td><td>Plush toys</td><td>heart bear plush</td><td>8.00</td><td>CNY</td><td>≥5000</td><td>Высокий</td></tr>
+              <tr><td>1</td><td>Artificial flowers</td><td>wisteria artificial flower</td><td>25.00</td><td>CNY</td><td>≥1</td><td>Высокий</td></tr>
+              <tr><td>1</td><td>Frames</td><td>oval metal photo frame</td><td>18.00–19.00</td><td>CNY</td><td>30–181</td><td>Высокий</td></tr>
+              <tr><td>1</td><td>Frames</td><td>illuminated frame decor</td><td>10.30–12.00</td><td>CNY</td><td>500–2000</td><td>Высокий</td></tr>
+              <tr><td>2</td><td>Locks / hardware</td><td>drawer latch</td><td>3.00</td><td>CNY</td><td>≥1000</td><td>Высокий</td></tr>
+              <tr><td>2</td><td>Locks</td><td>padlock 32–75mm</td><td>2.10–2.20</td><td>CNY</td><td>≥1</td><td>Высокий</td></tr>
+              <tr><td>2</td><td>Bags</td><td>casual bag model 8823</td><td>34.00–60.00</td><td>CNY</td><td>1–11</td><td>Высокий</td></tr>
+              <tr><td>2</td><td>Luggage</td><td>ABS luggage customizable</td><td>220.00</td><td>CNY</td><td>≥100</td><td>Высокий</td></tr>
+              <tr><td>2</td><td>Bags</td><td>bag factory direct sample band</td><td>без публичной цены</td><td>CNY</td><td>varies</td><td>Средний</td></tr>
+              <tr><td>3</td><td>Eyewear</td><td>sunglasses model 8556</td><td>22.00</td><td>CNY</td><td>≥300</td><td>Высокий</td></tr>
+              <tr><td>3</td><td>Eyewear</td><td>sunglasses model 1101</td><td>8.00–10.00</td><td>CNY</td><td>500–5001</td><td>Высокий</td></tr>
+              <tr><td>3</td><td>Eyewear</td><td>women fashion eyewear</td><td>4.50</td><td>CNY</td><td>≥1</td><td>Высокий</td></tr>
+              <tr><td>3</td><td>Stationery</td><td>cosmetic eraser</td><td>2.00</td><td>CNY</td><td>≥1</td><td>Высокий</td></tr>
+              <tr><td>3</td><td>Stationery</td><td>office eraser 2B</td><td>0.26</td><td>CNY</td><td>≥1</td><td>Высокий</td></tr>
+              <tr><td>3</td><td>Sports</td><td>weighted jump rope</td><td>17.00</td><td>CNY</td><td>≥1</td><td>Высокий</td></tr>
+              <tr><td>3</td><td>Sports</td><td>steel speed rope</td><td>20.00</td><td>CNY</td><td>≥200</td><td>Высокий</td></tr>
+              <tr><td>3</td><td>Garment trims</td><td>zipper pendant / trim</td><td>0.20–0.30</td><td>CNY</td><td>2000–20001</td><td>Высокий</td></tr>
+              <tr><td>3</td><td>Garment trims</td><td>resin open-end zipper</td><td>1.20–1.50</td><td>CNY</td><td>≥100</td><td>Высокий</td></tr>
+              <tr><td>3</td><td>Buttons</td><td>electroplated button</td><td>0.03–1.00</td><td>CNY</td><td>≥1000</td><td>Высокий</td></tr>
+              <tr><td>4</td><td>Socks</td><td>children cotton socks</td><td>1.10–2.50</td><td>CNY</td><td>12–2400</td><td>Высокий</td></tr>
+              <tr><td>4</td><td>Gloves</td><td>disposable PVC gloves</td><td>0.40–0.41</td><td>CNY</td><td>2000–20000</td><td>Высокий</td></tr>
+              <tr><td>4</td><td>Underwear</td><td>men seamless boxer 12-pack</td><td>7.50–8.50 за шт. в лоте</td><td>CNY</td><td>1–100 packs</td><td>Высокий</td></tr>
+              <tr><td>4</td><td>Underwear</td><td>summer men boxer</td><td>9.66–10.57</td><td>CNY</td><td>3–500</td><td>Высокий</td></tr>
+              <tr><td>4</td><td>Bra</td><td>invisible bra</td><td>11.00</td><td>CNY</td><td>≥1</td><td>Высокий</td></tr>
+              <tr><td>4</td><td>Lingerie</td><td>lace women brief</td><td>5.00–5.50</td><td>CNY</td><td>1–30</td><td>Высокий</td></tr>
+              <tr><td>4</td><td>Bra</td><td>bust-enhancing bra</td><td>23.00</td><td>CNY</td><td>≥1000</td><td>Высокий</td></tr>
+              <tr><td>5</td><td>Imported drink</td><td>Vietnamese juice 290ml</td><td>7.75–10.00</td><td>CNY</td><td>1–24</td><td>Высокий</td></tr>
+              <tr><td>5</td><td>Bedding</td><td>four-piece set</td><td>520.00</td><td>CNY</td><td>≥11</td><td>Высокий</td></tr>
+              <tr><td>5</td><td>Curtains</td><td>finished sheer curtain</td><td>38.00</td><td>CNY</td><td>≥1</td><td>Высокий</td></tr>
+              <tr><td>5</td><td>Curtains</td><td>roller blind / curtain</td><td>60.00</td><td>CNY</td><td>≥600</td><td>Высокий</td></tr>
+              <tr><td>5</td><td>Auto accessories</td><td>solar car fragrance</td><td>14.00–15.00</td><td>CNY</td><td>100–1001</td><td>Высокий</td></tr>
+              <tr><td>5</td><td>Auto accessories</td><td>car fragrance ornament</td><td>22.00–25.00</td><td>CNY</td><td>1–501</td><td>Высокий</td></tr>
+              <tr><td>5</td><td>Auto accessories</td><td>interior aroma item</td><td>4.50–8.00</td><td>CNY</td><td>1–501</td><td>Высокий</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </details>
+    </section>
+
+    <section id="plan" class="card" data-topics="recommendations dates">
+      <h2>Рабочий план посещения</h2>
+
+      <h3>Рабочие часы и что ожидать в реальности</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Дистрикт</th><th>Часы клиентского центра (летний режим)</th></tr></thead>
+          <tbody>
+            <tr><td>District 1, 2</td><td>9:00–11:30 / 13:00–17:00</td></tr>
+            <tr><td>District 3</td><td>8:45–11:15 / 12:30–16:30</td></tr>
+            <tr><td>District 5</td><td>8:30–11:30 / 12:30–16:30</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>На карточках продавцов часто встречается витринный режим примерно <strong>8:30–17:00</strong>. Безопасное правило для закупщика: <strong>приходить к 9:00 и завершать основные переговоры до 16:30</strong>.</p>
+
+      <h3>Если у вас один день</h3>
+      <p>Не делайте «обзорного туризма». Идите либо <strong>District 1 + короткий District 3</strong>, либо <strong>District 2 + District 3</strong>, либо <strong>District 4 + District 5</strong>, в зависимости от товарной логики. Без специализации лучший beginner-route — <strong>District 1 утром, District 3 после обеда</strong>.</p>
+
+      <h3>Если у вас два дня</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>День</th><th>Маршрут</th></tr></thead>
+          <tbody>
+            <tr><td>Day 1</td><td>District 1 → District 3</td></tr>
+            <tr><td>Day 2</td><td>District 2 → District 4</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Это покрывает почти весь классический малый опт: toys, jewelry, craft, stationery, sports, beauty, bags, locks/hardware, socks, gloves, scarves, underwear. District 5 добавляйте только при интересе к imported goods, home textile или auto accessories.</p>
+
+      <h3>Если у вас три дня</h3>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>День</th><th>Маршрут</th></tr></thead>
+          <tbody>
+            <tr><td>Day 1</td><td>District 1, детальный отбор по 2–3 этажам, сбор контактов</td></tr>
+            <tr><td>Day 2</td><td>District 2 + District 3, только по целевым улицам и этажам</td></tr>
+            <tr><td>Day 3</td><td>District 4 + District 5, затем повторный возврат к 3–5 лучшим поставщикам из прошлых дней</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>Третий день нужен не потому, что рынок «слишком красивый», а потому, что именно на втором возврате вы уже ведёте нормальный разговор о MOQ, пакетировке, private label, доставке до forwarder и повторном заказе.</p>
+
+      <div class="callout highlight">
+        <h4>Финальный вывод</h4>
+        <p><strong>Маршрут:</strong> Shanghai Hongqiao Railway Station → Yiwu Railway Station → DiDi до нужного дистрикта.<br>
+        <strong>Лучший день:</strong> 22 июня 2026, запасной — 18 июня 2026.<br>
+        <strong>Дистрикты без специализации:</strong> 1 → 3 → 2/4.<br>
+        <strong>Реальность мелкого опта:</strong> реально и удобно через образцы, mixed lots, small trial order и повторный заказ после валидации — но не весь рынок одинаково дружелюбен к микропартии.</p>
+      </div>
+    </section>
+
+    <section id="warnings" class="card" data-topics="recommendations">
+      <h2>⚠️ Важные предупреждения</h2>
+      <ul class="warning-list">
+        <li>Отдельного официального уведомления о закрытии рынка на 端午节 (19–21 июня) не найдено — но риск сниженной активности продавцов в эти дни реален.</li>
+        <li>Не весь рынок дружелюбен к мелким партиям: в District 2 и части District 5 высокие MOQ встречаются заметно чаще.</li>
+        <li>Не все павильоны — фабрики. Часть из них — шоурумы или торгово-посреднические компании (经销批发), а не производитель (自有工厂 / 生产厂家).</li>
+        <li>Цены сильно зависят от цвета, материала, упаковки, custom logo, сертификации и формата заказа — табличные диапазоны это только стартовая точка для переговоров, а не финальная цена.</li>
+        <li>В категории cosmetics обязательно проверяйте compliance и сопроводительные документы.</li>
+        <li>В hardware/electrical уточняйте сертификацию и напряжение (voltage) перед заказом.</li>
+        <li>Не пытайтесь обойти весь рынок за один день — без подготовки легко потерять день на одной лишь ориентации.</li>
+        <li>Закладывайте запас времени на станции Hongqiao: 45–60 минут в обычные дни, 60–90 минут в праздничные даты.</li>
+        <li>Приходите к 9:00 и завершайте переговоры до 16:30 — после этого часть клиентских центров и витрин снижает активность.</li>
+      </ul>
+    </section>
+
+    <section id="sources" class="card" data-topics="">
+      <h2>Источники</h2>
+      <p class="muted">Отчёт построен на основе официальных страниц Yiwu International Trade City, Chinagoods, Yiwugo, eYiwu, государственного календаря праздников КНР, а также пользовательских отзывов (Amap, Bilibili, Reddit) и сервисов планирования поездок (Trip, TravelChinaGuide). Ниже — сгруппированные по разделам ссылки-цитаты из оригинального исследования (в виде кодов источников, как они приведены в отчёте).</p>
+      <details>
+        <summary><h3>Развернуть список источников по разделам</h3></summary>
+        <dl class="source-list">
+          <dt>Праздники и рабочий график</dt>
+          <dd>turn41search0, turn41search2, turn36search3, turn36search1, turn38news46, turn41reddit62</dd>
+          <dt>Маршрут Шанхай → Yiwu</dt>
+          <dd>turn39search0, turn39search1, turn39search2, turn34search2, turn8search2, turn39reddit55, turn39reddit59</dd>
+          <dt>Станция Yiwu и последний участок до рынка</dt>
+          <dd>turn8search1, turn9search2, turn9search3, turn30search0, turn30search3, turn30search4</dd>
+          <dt>POI и DiDi по дистриктам</dt>
+          <dd>turn33search1, turn12search5, turn40search5, turn40search4, turn11search0, turn14search1, turn32search0, turn35search0, turn33reddit49, turn15search1</dd>
+          <dt>Структура рынка и дистрикты</dt>
+          <dd>turn31search1, turn31search3, turn32search0, turn32search1, turn33reddit49, turn33reddit58, turn37search1, turn16search2, turn16search3</dd>
+          <dt>Этажи и категории District 1–5</dt>
+          <dd>turn17search0, turn17search1, turn17search2, turn17search6, turn18search0, turn18search1, turn18search3, turn18search4, turn18search6, turn19search2, turn19search3, turn19search8, turn20search0, turn20search2, turn20search5, turn20search6, turn21search1, turn21search2, turn21search8, turn22search0, turn22search2, turn22search7, turn22search9, turn23search0, turn23search5, turn23search7, turn23search8, turn23search9, turn23search10, turn24search0, turn24search1, turn24search4, turn24search5, turn24search7, turn24search9, turn25search2, turn25search4, turn25search5, turn26search1, turn26search9, turn27search0, turn27search3, turn27search4, turn27search5, turn27search6, turn27search7, turn28search0, turn28search1, turn28search2, turn28search3, turn28search4, turn28search5, turn29search0, turn29search1, turn29search4, turn29search6</dd>
+        </dl>
+      </details>
+      <p class="muted small">Примечание: исходные коды цитат (turnXsearchY) приведены из исходного markdown-отчёта как ссылка на использованные источники deep research; прямые URL в исходном отчёте не публиковались.</p>
+    </section>
+
+  </main>
+</div>
+
+<button id="backToTop" class="back-to-top" aria-label="Наверх">↑</button>
+<div id="copyToast" class="copy-toast">Скопировано</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1132 @@
+{
+  "meta": {
+    "generated_at": "2026-06-17",
+    "total_chats_analyzed": 22,
+    "complete_companies": 17,
+    "incomplete_companies": 5,
+    "base_weight_kg": 580,
+    "rmb_to_usd_rate": 6.75,
+    "cargo_summary": {
+      "origin": "Nantong, Jiangsu, China (near Shanghai)",
+      "destination": "Brooklyn, NY 11214, USA",
+      "product": "192 bedding sets, 100% cotton, no brand/logo",
+      "packing": "24 cartons, 8 sets per carton, ~84×40×40 cm per carton",
+      "gross_weight_kg": 580,
+      "terms": "DDP sea + truck shipping to USA"
+    }
+  },
+  "complete": [
+    {
+      "id": "guanling",
+      "company": "GuanLing Logistics (Stella)",
+      "contact": "Stella",
+      "phone": "+86 151 1252 1956",
+      "file": "WhatsApp_Chat__86_151_1252_1956",
+      "status": "complete",
+      "reliability": "High",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.5/kg + $180 pickup fee из Nantong",
+      "price_per_kg_usd": 1.5,
+      "shipping_cost_usd": 870.0,
+      "additional_fees_usd": 180.0,
+      "additional_fees_desc": "Pickup fee из Nantong: $180",
+      "final_total_usd": 1050.0,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": true,
+        "pickup": true
+      },
+      "ddp_status": "confirmed",
+      "pickup_from_nantong": "included",
+      "warehouse_address": "Пикап прямо из Nantong, склад не требуется",
+      "warehouse_city": "Nantong (прямой пикап)",
+      "transit_time": "32-36 рабочих дней",
+      "min_charge": "Не указано",
+      "restrictions": "Рекомендуется паллетирование 24 коробок на 2 паллеты для упрощения локальной доставки в США.",
+      "score": {
+        "price": 43.6,
+        "pickup": 20,
+        "transit": 15.0,
+        "ddp": 10,
+        "proximity": 5,
+        "total": 93.6
+      },
+      "evidence": [
+        {
+          "quote": "24ctn, 580kg, 3.2256cbm=539kg / Chargeable weight: 580kg / Pick up fee from Nantong: 180USD",
+          "note": "Вес и пикап-сбор"
+        },
+        {
+          "quote": "By slow sea+truck, $1.5/kg, DDP, shipping time is about 32-36 working days after sailing.",
+          "note": "Ставка, DDP, срок"
+        },
+        {
+          "quote": "Total:180+580*1.5=1,050USD",
+          "note": "Итоговый расчёт от компании"
+        }
+      ],
+      "questions_to_clarify": [
+        "Подтвердить дату готовности груза к пикапу"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "sunluck",
+      "company": "Shenzhen SunLuck Supplychain (Jason Jiang)",
+      "contact": "Jason Jiang",
+      "phone": "Не указано",
+      "file": "WhatsApp_Chat__Jason_Jiang",
+      "status": "complete",
+      "reliability": "High",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.66/kg + $74.63 trucking",
+      "price_per_kg_usd": 1.66,
+      "shipping_cost_usd": 962.8,
+      "additional_fees_usd": 74.63,
+      "additional_fees_desc": "Trucking fee (доставка до склада в Иу, включена в общий расчёт): $74.63",
+      "final_total_usd": 1037.43,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": true,
+        "pickup": true
+      },
+      "ddp_status": "confirmed",
+      "pickup_from_nantong": "included",
+      "warehouse_address": "No. 19, Building 1, Huatong Group, Gutang Industrial Zone, Yiting Town, Yiwu City",
+      "warehouse_city": "Иу (Чжэцзян)",
+      "transit_time": "40-50 дней",
+      "min_charge": "Не указано",
+      "restrictions": "Компания просит указать имя клиента на коробках при отправке.",
+      "score": {
+        "price": 44.2,
+        "pickup": 20,
+        "transit": 11.3,
+        "ddp": 10,
+        "proximity": 3,
+        "total": 88.5
+      },
+      "evidence": [
+        {
+          "quote": "the door-to-door DDP shipping service fee for unbranded bedding via ocean freight is: $1.66/kg + $74.63 for trucking fees.",
+          "note": "Цена и состав"
+        },
+        {
+          "quote": "This price is for delivery to our warehouse. We'll ship it to our Yiwu warehouse, which is closer to the factory.",
+          "note": "Trucking fee = доставка до склада в Иу"
+        },
+        {
+          "quote": "Estimated delivery time: 40–50 days after vessel departure for pickup and delivery.",
+          "note": "Срок"
+        }
+      ],
+      "questions_to_clarify": [
+        "Подтвердить финальную цену с учётом фактических замеров груза"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "anl_sandy",
+      "company": "ANL (American New Logistics) — Sandy",
+      "contact": "Sandy",
+      "phone": "+86 19584048867",
+      "file": "WhatsApp_Chat__8619584048867",
+      "status": "complete",
+      "reliability": "High",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.78/kg (самый дешёвый из 3 тарифов)",
+      "price_per_kg_usd": 1.78,
+      "shipping_cost_usd": 1032.4,
+      "additional_fees_usd": 0,
+      "additional_fees_desc": "Доп. сборы не указаны",
+      "final_total_usd": 1032.4,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "confirmed",
+      "pickup_from_nantong": "not_available",
+      "warehouse_address": "Не указано (только город)",
+      "warehouse_city": "Шанхай",
+      "transit_time": "38-40 дней",
+      "min_charge": "Не указано",
+      "restrictions": "Также предложены более быстрые/дорогие тарифы: $2.33/kg (30-35дн), $3.05/kg (23-26дн). Поставщик должен сам доставить груз на склад в Шанхае.",
+      "score": {
+        "price": 44.4,
+        "pickup": 8,
+        "transit": 13.1,
+        "ddp": 10,
+        "proximity": 4,
+        "total": 79.4
+      },
+      "evidence": [
+        {
+          "quote": "USD2.33/kg 30-35Days / USD3.05/KG 23-26Days / USD1.78/KG 38-40Days",
+          "note": "Три тарифные опции"
+        },
+        {
+          "quote": "the price includes door delivery, customs clearance, duties, and taxes",
+          "note": "Подтверждение DDP"
+        },
+        {
+          "quote": "Need the supplier send the goods to our Shanghai warehosue",
+          "note": "Склад в Шанхае, пикап не организован"
+        }
+      ],
+      "questions_to_clarify": [
+        "Уточнить стоимость и возможность пикапа из Nantong до склада в Шанхае"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "ruby",
+      "company": "Jessie Huang / Ruby (название компании не указано)",
+      "contact": "Ruby / Jessie Huang",
+      "phone": "Не указано (групповой чат)",
+      "file": "WhatsApp_Chat__VladRuby20260615US",
+      "status": "complete",
+      "reliability": "High",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.75/kg + $161.76 pickup fee",
+      "price_per_kg_usd": 1.75,
+      "shipping_cost_usd": 1015.0,
+      "additional_fees_usd": 161.76,
+      "additional_fees_desc": "Pickup fee из Nantong до склада в Шэньчжэне: $161.76",
+      "final_total_usd": 1176.76,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": false,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": true
+      },
+      "ddp_status": "partial",
+      "pickup_from_nantong": "paid",
+      "warehouse_address": "Gate 2, at the end of Building D, Huasheng Industrial Park, Huan Guan South Road, Longhua District, Shenzhen City",
+      "warehouse_city": "Шэньчжэнь (Гуандун)",
+      "transit_time": "40-45 рабочих дней",
+      "min_charge": "Не указано",
+      "restrictions": "Pickup fee оплачивается отдельно (через локальную логистическую компанию в Китае).",
+      "score": {
+        "price": 38.9,
+        "pickup": 14,
+        "transit": 12.0,
+        "ddp": 7,
+        "proximity": 5,
+        "total": 76.9
+      },
+      "evidence": [
+        {
+          "quote": "$1.9/KG 40-45working days by sea+truck by DDP",
+          "note": "Исходная ставка"
+        },
+        {
+          "quote": "so how about the price for $1.75, this is the lowest price",
+          "note": "Финальная согласованная ставка"
+        },
+        {
+          "quote": "580*$1.75+$161.76=$1176.76",
+          "note": "Итоговый расчёт от компании"
+        },
+        {
+          "quote": "our warehouse address: Gate 2, at the end of Building D, Huasheng Industrial Park, Huan Guan South Road, Longhua District, Shenzhen City, Guangdong Province",
+          "note": "Адрес склада"
+        }
+      ],
+      "questions_to_clarify": [
+        "Уточнить состав DDP (явно не перечислены customs/duties/taxes по отдельности)"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "furuitong",
+      "company": "Shenzhen Furuitong Supply",
+      "contact": "Менеджер не назван",
+      "phone": "+86 181 7469 5900",
+      "file": "WhatsApp_Chat__86_181_7469_5900",
+      "status": "complete",
+      "reliability": "High",
+      "currency_original": "RMB",
+      "price_per_kg_original": "RMB 12/kg (медленная линия, дешевле) либо RMB 16/kg (экспресс)",
+      "price_per_kg_usd": 1.7778,
+      "shipping_cost_usd": 1031.11,
+      "additional_fees_usd": 0,
+      "additional_fees_desc": "Не указано",
+      "final_total_usd": 1031.11,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "confirmed",
+      "pickup_from_nantong": "not_available",
+      "warehouse_address": "Не указано (только город)",
+      "warehouse_city": "Иу (Чжэцзян)",
+      "transit_time": "40-50 дней (медленная линия) / 30-35 дней (экспресс)",
+      "min_charge": "Не указано",
+      "restrictions": "Альтернатива: экспресс-линия через LA по RMB 16/kg, 30-35 дней, дороже.",
+      "score": {
+        "price": 44.4,
+        "pickup": 8,
+        "transit": 11.3,
+        "ddp": 10,
+        "proximity": 3,
+        "total": 76.8
+      },
+      "evidence": [
+        {
+          "quote": "We have a warehouse in Yiwu, China, and our goods can be directly delivered to our Yiwu warehouse center.",
+          "note": "Склад в Иу"
+        },
+        {
+          "quote": "it is estimated to cost 12 RMB/kg, and it is estimated that you will receive your goods in about 40-50 days",
+          "note": "Медленная линия"
+        },
+        {
+          "quote": "This quotation includes your taxes and customs clearance fees.",
+          "note": "DDP подтверждён"
+        }
+      ],
+      "questions_to_clarify": [
+        "Уточнить стоимость доставки от Nantong до склада в Иу"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "unreal_china",
+      "company": "Unreal China (Gulmira Savatbek)",
+      "contact": "Gulmira Savatbek",
+      "phone": "+996 702 877 117",
+      "file": "WhatsApp_Chat__996_702_877_117",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.81/kg медленное море (предварительный расчёт) или 2.23/kg быстрое море",
+      "price_per_kg_usd": 1.81,
+      "shipping_cost_usd": 1049.8,
+      "additional_fees_usd": 100,
+      "additional_fees_desc": "Пикап от поставщика в Нантонге до склада: $100",
+      "final_total_usd": 1149.8,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": true
+      },
+      "ddp_status": "partial",
+      "pickup_from_nantong": "paid",
+      "warehouse_address": "上海市青浦区华新镇嘉松中路3299号B05－B06, контакт: 天昂 (Tian Ang) 18664939534 (приём груза: пн-сб 10:00-21:00)",
+      "warehouse_city": "Шанхай (рекомендован компанией как более близкий к Nantong, чем основной склад в Дунгуане)",
+      "transit_time": "40-50 дней (медленное море); либо 26-32 дня за $1,293.4 + пикап (быстрое море)",
+      "min_charge": "Не указано; максимальный размер коробки в данной схеме: 120×100×180 см",
+      "restrictions": "Цена — предварительный расчёт, не финальная (компания явно предупредила, что после фактической упаковки в коробки цена может измениться). В конце переписки компания подняла требование сертификации CPC/GCC для текстиля из-за усиления таможенного контроля в США; на момент завершения чата логисты ещё не подтвердили, нужна ли сертификация именно для постельного белья без бренда, логотипа и батареек — это риск задержки и дополнительных расходов.",
+      "score": {
+        "price": 39.8,
+        "pickup": 14,
+        "transit": 11.3,
+        "ddp": 7,
+        "proximity": 4,
+        "total": 76.1
+      },
+      "evidence": [
+        {
+          "quote": "580kg*1.81=1 049,8$, срок доставки 40-50 дней\n580kg*2.23=1 293,4$, срок доставки 26-32 дней\n\n*стоимость пикапа:100$",
+          "note": "Предварительный расчёт по основному грузу (580 кг, 192 комплекта постельного белья) и стоимость пикапа из Нантонга"
+        },
+        {
+          "quote": "Если вы хотите отправить груз по DDP, надежнее всего выбрать сборную доставку в коробках. При схеме \"море + трак\" в стоимость уже «под ключ» входят все таможенные процедуры, досмотры и прочие расходы. Это гораздо безопаснее для вас",
+          "note": "Общее подтверждение, что схема море+трак сборным грузом организована по DDP"
+        },
+        {
+          "quote": "Требуется сертификация CPC или GCC",
+          "note": "Требование сертификации, поднятое уже после расчёта цены — на момент окончания переписки окончательно не подтверждено для данного товара"
+        },
+        {
+          "quote": "上海市青浦区华新镇嘉松中路3299号B05－B06  联系人：天昂 18664939534 （收货时间：周一至周六10:00-21:00）",
+          "note": "Адрес склада в Шанхае — предложен как более близкая альтернатива складу в Дунгуане (~400 км от Nantong)"
+        }
+      ],
+      "questions_to_clarify": [
+        "Подтвердить, требуется ли сертификация CPC/GCC для постельного белья без брендов, логотипов и батареек",
+        "Получить финальный (не предварительный) расчёт после подтверждения точной упаковки в коробки",
+        "Уточнить, входят ли таможенные пошлины и налоги в итоговую цену для этой конкретной партии",
+        "Уточнить, можно ли организовать пикап непосредственно с адреса в Nantong (叠石桥国际家纺城) без дополнительных согласований"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "eusa",
+      "company": "EUSA",
+      "contact": "EUSA (менеджер не назван)",
+      "phone": "+1 470 408 1051",
+      "file": "WhatsApp_Chat__1_470_4081051",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.92/kg (по факту 560 кг)",
+      "price_per_kg_usd": 1.92,
+      "shipping_cost_usd": 1113.6,
+      "additional_fees_usd": 81.48,
+      "additional_fees_desc": "Доставка от Nantong до склада в районе Иу (Цзиньхуа): RMB 500–600 ≈ $74.07–88.89 (курс 6.75), в расчёте взята середина диапазона",
+      "final_total_usd": 1195.08,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "partial",
+      "pickup_from_nantong": "paid",
+      "warehouse_address": "浙江省金华市金东区金义综合保税区S2仓C区 (Цзиньхуа, Чжэцзян, рядом с Иу)",
+      "warehouse_city": "Иу / Цзиньхуа (Чжэцзян)",
+      "transit_time": "~40 дней",
+      "min_charge": "Не указано",
+      "restrictions": "Цена не включает доставку от поставщика до склада компании; пикап с фабрики не организуется напрямую.",
+      "score": {
+        "price": 38.3,
+        "pickup": 14,
+        "transit": 12.8,
+        "ddp": 7,
+        "proximity": 3,
+        "total": 75.1
+      },
+      "evidence": [
+        {
+          "quote": "Transit time: around 40 days，total cost: USD 1,073 (based on 560kg chargeable weight)",
+          "note": "Базовая цена и срок"
+        },
+        {
+          "quote": "Our rate is USD 1.92/kg.",
+          "note": "Ставка за кг"
+        },
+        {
+          "quote": "The total cost is around RMB 400, plus highway tolls of about RMB 100–200, so the estimated total is approximately RMB 500–600.",
+          "note": "Стоимость доставки до склада Иу"
+        }
+      ],
+      "questions_to_clarify": [
+        "Подтвердить итоговую ставку для 580кг (квота дана для 560кг)",
+        "Уточнить точную стоимость доставки до склада (диапазон RMB 500-600)",
+        "Получить явное подтверждение DDP с перечислением входящих статей"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "itsgood",
+      "company": "ITSGOOD Logistics",
+      "contact": "Менеджер не назван",
+      "phone": "+86 180 0252 2095",
+      "file": "WhatsApp_Chat__86_180_0252_2095",
+      "status": "complete",
+      "reliability": "High",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.7/kg (база 560кг = $943.5)",
+      "price_per_kg_usd": 1.7,
+      "shipping_cost_usd": 986.0,
+      "additional_fees_usd": 25.0,
+      "additional_fees_desc": "Доля клиента в стоимости локальной доставки от фабрики до склада (Huolala): $25",
+      "final_total_usd": 1011.0,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": true
+      },
+      "ddp_status": "confirmed",
+      "pickup_from_nantong": "paid",
+      "warehouse_address": "义乌市稠江街 道德贸路2号启函物流园二层平台33号门（皓鹏）",
+      "warehouse_city": "Иу (Чжэцзян), ~360 км от Nantong",
+      "transit_time": "Не указано",
+      "min_charge": "Не указано",
+      "restrictions": "Срок доставки не указан в переписке.",
+      "score": {
+        "price": 45.3,
+        "pickup": 14,
+        "transit": 0,
+        "ddp": 10,
+        "proximity": 3,
+        "total": 72.3
+      },
+      "evidence": [
+        {
+          "quote": "The total sea freight is 943.5 US dollars, and the cost includes: pick-up, transportation, customs clearance and delivery.",
+          "note": "Цена и состав"
+        },
+        {
+          "quote": "The total cost is 943.5 dollars, and the unit price is 1.7 dollars.",
+          "note": "Цена за кг"
+        },
+        {
+          "quote": "How about I pay 30 dollars and you bear 25 dollars?",
+          "note": "Разделение стоимости локальной доставки до склада"
+        }
+      ],
+      "questions_to_clarify": [
+        "Уточнить срок доставки (transit time)"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "alan_gz",
+      "company": "Alan (Гуанчжоу, компания не указана)",
+      "contact": "Alan",
+      "phone": "Не указано",
+      "file": "WhatsApp_Chat__Alan",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.7/kg (финальное предложение, пикап включён)",
+      "price_per_kg_usd": 1.7,
+      "shipping_cost_usd": 986.0,
+      "additional_fees_usd": 0,
+      "additional_fees_desc": "Изначально упоминался отдельный delivery fee $100 для тарифа 1.85$/kg; неясно, применяется ли он к финальному предложению 1.7$/kg",
+      "final_total_usd": 986.0,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": false,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": true
+      },
+      "ddp_status": "partial",
+      "pickup_from_nantong": "paid",
+      "warehouse_address": "广州白云区唐阁路135号聚星产业园6栋101-102号 (Гуанчжоу)",
+      "warehouse_city": "Гуанчжоу (далеко от Nantong)",
+      "transit_time": "Не указано",
+      "min_charge": "Не указано",
+      "restrictions": "Переговоры не были окончательно закрыты письменно; неясно, входит ли $100 delivery fee в финальную ставку 1.7$/kg. Склад очень далеко (Гуанчжоу).",
+      "score": {
+        "price": 46.5,
+        "pickup": 14,
+        "transit": 0,
+        "ddp": 7,
+        "proximity": 1,
+        "total": 68.5
+      },
+      "evidence": [
+        {
+          "quote": "The shipping fee is 1.85 US dollars per kilogram / An additional delivery fee of 100 US dollars is required / DDP",
+          "note": "Первоначальное предложение"
+        },
+        {
+          "quote": "You pay 1.7 US dollars and I'll cover the shipping cost",
+          "note": "Финальное предложение — пикап включён в цену"
+        },
+        {
+          "quote": "仓库地址：广州白云区唐阁路135号聚星产业园6栋101-102号",
+          "note": "Адрес склада"
+        }
+      ],
+      "questions_to_clarify": [
+        "Письменно зафиксировать финальную цену и состав (входит ли $100 delivery fee)",
+        "Уточнить срок доставки"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "jiyang_alan",
+      "company": "Jiyang International (Alan / Liu Xing)",
+      "contact": "Alan (Liu Xing)",
+      "phone": "+86 158 2104 3726",
+      "file": "WhatsApp_Chat__86_158_2104_3726",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "RMB",
+      "price_per_kg_original": "RMB 9.8/kg + RMB 500/BL",
+      "price_per_kg_usd": 1.4519,
+      "shipping_cost_usd": 842.07,
+      "additional_fees_usd": 74.07,
+      "additional_fees_desc": "RMB 500/BL (truck delivery surcharge for oversized cargo)",
+      "final_total_usd": 916.14,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": false,
+        "duties": false,
+        "taxes": false,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "unclear",
+      "pickup_from_nantong": "not_available",
+      "warehouse_address": "上海浦东新区航城路1132号浦东空港协信产业园2号仓库一层 B-1-(13-24号口)",
+      "warehouse_city": "Шанхай",
+      "transit_time": "Не указано",
+      "min_charge": "Express доступен только для коробок 12-22кг/шт без +500RMB/BL",
+      "restrictions": "DDP не переподтверждён явно в ответе на запрос; цена не включает доставку от фабрики Nantong до склада в Шанхае (отдельно).",
+      "score": {
+        "price": 50.0,
+        "pickup": 8,
+        "transit": 0,
+        "ddp": 3,
+        "proximity": 4,
+        "total": 65.0
+      },
+      "evidence": [
+        {
+          "quote": "Brooklyn, NY 11214, USA RMB9.8/kg +500/BL",
+          "note": "Цена"
+        },
+        {
+          "quote": "This price does not include the freight charges for picking up goods at the factory in Nantong, Jiangsu, China. These charges need to be calculated separately.",
+          "note": "Пикап не включён"
+        },
+        {
+          "quote": "上海浦东新区航城路1132号浦东空港协信产业园2号仓库一层 B-1-(13-24号口)",
+          "note": "Адрес склада в Шанхае"
+        }
+      ],
+      "questions_to_clarify": [
+        "Уточнить, входят ли customs/duties/taxes в цену (DDP не подтверждён явно)",
+        "Уточнить срок доставки",
+        "Уточнить стоимость доставки от Nantong до склада в Шанхае"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "niuku",
+      "company": "Niuku Int'l (Martin Lee)",
+      "contact": "Martin Lee",
+      "phone": "Не указано",
+      "file": "WhatsApp_Chat__Martin_LeeNiuku_Intl",
+      "status": "complete",
+      "reliability": "High",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.19/kg + $423 trucking delivery fee",
+      "price_per_kg_usd": 1.19,
+      "shipping_cost_usd": 690.2,
+      "additional_fees_usd": 423.0,
+      "additional_fees_desc": "Trucking delivery fee (от склада Шанхай до Бруклина): $423",
+      "final_total_usd": 1113.2,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "confirmed",
+      "pickup_from_nantong": "not_available",
+      "warehouse_address": "Шанхайский склад (точный адрес не назван)",
+      "warehouse_city": "Шанхай",
+      "transit_time": "Не указано",
+      "min_charge": "Тариф действует для объёма до 4-5 CBM (1 CBM = 167 кг); выше — другая цена",
+      "restrictions": "Срок доставки не указан. Доставка от Nantong до склада в Шанхае — на стороне поставщика/клиента.",
+      "score": {
+        "price": 41.1,
+        "pickup": 8,
+        "transit": 0,
+        "ddp": 10,
+        "proximity": 4,
+        "total": 63.1
+      },
+      "evidence": [
+        {
+          "quote": "DDP from our Shanghai warehouse to 7822 20th ave, Brooklyn, NY,11214 including the tariff : usd1.19/kg+trucking delivery fee:usd423.",
+          "note": "Цена и состав"
+        },
+        {
+          "quote": "total about 1.19$*580kg+423$=usd1113.20",
+          "note": "Итоговый расчёт от компании (точно совпадает с базой 580кг)"
+        },
+        {
+          "quote": "Please note that our conversion rate for volume weight and actual weight is based on the principle of we will charge the larger KG data, and it is based on 1 CBM: 167 KG.",
+          "note": "Условие по объёмному весу"
+        }
+      ],
+      "questions_to_clarify": [
+        "Уточнить срок доставки (transit time)"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "jason_unnamed",
+      "company": "Jason (компания не указана)",
+      "contact": "Jason",
+      "phone": "+86 135 1069 9731",
+      "file": "WhatsApp_Chat__86_135_1069_9731",
+      "status": "complete",
+      "reliability": "High",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 2.2/kg (база 560кг = $1,232)",
+      "price_per_kg_usd": 2.2,
+      "shipping_cost_usd": 1276.0,
+      "additional_fees_usd": 0,
+      "additional_fees_desc": "Не указано",
+      "final_total_usd": 1276.0,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": true,
+        "pickup": false
+      },
+      "ddp_status": "confirmed",
+      "pickup_from_nantong": "not_available",
+      "warehouse_address": "Не указано (только расстояние)",
+      "warehouse_city": "Не указано, ~1464 км от Nantong",
+      "transit_time": "40-45 дней",
+      "min_charge": "Не указано",
+      "restrictions": "Склад очень далеко от Nantong (~1464 км, ~15ч в пути); название компании не указано.",
+      "score": {
+        "price": 35.9,
+        "pickup": 3,
+        "transit": 12.0,
+        "ddp": 10,
+        "proximity": 1,
+        "total": 61.9
+      },
+      "evidence": [
+        {
+          "quote": "Total cost: USD 1,232 / Rate: USD 2.2 / KG × 560 KG = USD 1,232",
+          "note": "Цена"
+        },
+        {
+          "quote": "Sea freight (LCL consolidation) / Export & import customs clearance / Duties and taxes included / Door-to-door delivery to Brooklyn, NY",
+          "note": "Состав DDP"
+        },
+        {
+          "quote": "The fastest driving time is approximately 15 hours and 18 minutes, covering a total distance of about 1,464.0 kilometers.",
+          "note": "Расстояние до склада"
+        }
+      ],
+      "questions_to_clarify": [
+        "Уточнить название компании",
+        "Уточнить точный адрес склада"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "twotigers",
+      "company": "Two Tigers Global Logistics",
+      "contact": "Менеджер не назван",
+      "phone": "+86 133 1618 9698",
+      "file": "WhatsApp_Chat__86_133_1618_9698",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "RMB",
+      "price_per_kg_original": "RMB 12.5/kg + RMB 500 delivery fee",
+      "price_per_kg_usd": 1.8519,
+      "shipping_cost_usd": 1074.07,
+      "additional_fees_usd": 74.07,
+      "additional_fees_desc": "RMB 500 delivery fee",
+      "final_total_usd": 1148.14,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "confirmed",
+      "pickup_from_nantong": "not_available",
+      "warehouse_address": "Не указано (только город)",
+      "warehouse_city": "Шэньчжэнь (Гуандун)",
+      "transit_time": "Не указано",
+      "min_charge": "Не указано",
+      "restrictions": "Склад далеко от Nantong (южный Китай); пикап не организован.",
+      "score": {
+        "price": 39.9,
+        "pickup": 8,
+        "transit": 0,
+        "ddp": 10,
+        "proximity": 1,
+        "total": 58.9
+      },
+      "evidence": [
+        {
+          "quote": "Door-to-door delivery, customs clearance and tax included.",
+          "note": "DDP подтверждён"
+        },
+        {
+          "quote": "12.5/kg + 500 delivery fee",
+          "note": "Цена в RMB"
+        },
+        {
+          "quote": "Our warehouse is in Shenzhen, Guangdong.",
+          "note": "Город склада"
+        }
+      ],
+      "questions_to_clarify": [
+        "Уточнить срок доставки",
+        "Уточнить стоимость доставки от Nantong до Шэньчжэня"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "hke_sophia",
+      "company": "HKE Logistics (Sophia)",
+      "contact": "Sophia",
+      "phone": "Не указано",
+      "file": "WhatsApp_Chat__HKE_LogisticsSophia_Raw",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1,127 итог за 600кг (паллеты), последнее предложение",
+      "price_per_kg_usd": 1.8783,
+      "shipping_cost_usd": 1127.0,
+      "additional_fees_usd": 0,
+      "additional_fees_desc": "Pickup fee из Nantong НЕ включён (явно указано)",
+      "final_total_usd": 1127.0,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": false,
+        "taxes": false,
+        "door": false,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "partial",
+      "pickup_from_nantong": "not_available",
+      "warehouse_address": "Не указано",
+      "warehouse_city": "Не указано",
+      "transit_time": "50-55 дней",
+      "min_charge": "Без паллет: лимит 21.5кг на коробку",
+      "restrictions": "В переписке несколько противоречивых цен (от $1,355 до $1,993.8 за разные конфигурации); адрес склада не предоставлен; pickup-fee из Nantong явно не включён.",
+      "score": {
+        "price": 40.6,
+        "pickup": 0,
+        "transit": 9.7,
+        "ddp": 7,
+        "proximity": 0,
+        "total": 57.4
+      },
+      "evidence": [
+        {
+          "quote": "600KG, need packed with pallet dear. price is $1,127. take 50~55 days",
+          "note": "Финальная цена и срок"
+        },
+        {
+          "quote": "not including the pick up fee",
+          "note": "Пикап не включён"
+        },
+        {
+          "quote": "Sea DDP=$1,355, take 30~35 days . delivery by UPS",
+          "note": "Альтернативная (более ранняя) цена за другую конфигурацию"
+        }
+      ],
+      "questions_to_clarify": [
+        "Уточнить финальную цену именно для 580кг / 24 коробок по спецификации",
+        "Уточнить адрес склада",
+        "Уточнить стоимость пикапа из Nantong"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "ailee",
+      "company": "Ai Lee Logistics",
+      "contact": "Ai Lee Logistics",
+      "phone": "+852 6657 4665",
+      "file": "WhatsApp_Chat__852_6657_4665",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1,211 total / 560kg = 2.1625 USD/kg",
+      "price_per_kg_usd": 2.1625,
+      "shipping_cost_usd": 1254.25,
+      "additional_fees_usd": 0,
+      "additional_fees_desc": "Доставка от Nantong до склада в Иу (~300 км) — стоимость не озвучена отдельно",
+      "final_total_usd": 1254.25,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": false,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "partial",
+      "pickup_from_nantong": "not_available",
+      "warehouse_address": "义乌市稠江街道弘贸路圣达街跨境电商物流园S3地块3栋3-2-2-1F星航物流 (Иу)",
+      "warehouse_city": "Иу (Чжэцзян)",
+      "transit_time": "Не указано",
+      "min_charge": "Не указано",
+      "restrictions": "Итоговая цена не была окончательно зафиксирована (шли переговоры от $1211 в сторону ~$952-1000); срок доставки не указан.",
+      "score": {
+        "price": 36.5,
+        "pickup": 8,
+        "transit": 0,
+        "ddp": 7,
+        "proximity": 3,
+        "total": 54.5
+      },
+      "evidence": [
+        {
+          "quote": "Your shipping cost is $1,211 - that's calculated based on 560 kilograms",
+          "note": "Базовая цена"
+        },
+        {
+          "quote": "So your DDP is 952usd",
+          "note": "Менеджер подтверждает термин DDP в переговорах о скидке"
+        },
+        {
+          "quote": "About 300 kilometers. China is huge, so that's really pretty close",
+          "note": "Расстояние до склада"
+        }
+      ],
+      "questions_to_clarify": [
+        "Зафиксировать финальную цену письменно (переговоры не были закрыты)",
+        "Уточнить срок доставки",
+        "Уточнить стоимость доставки от Nantong до склада в Иу"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "henry",
+      "company": "快速通达货运代理 (Henry)",
+      "contact": "Henry",
+      "phone": "+86 132 4678 5658",
+      "file": "WhatsApp_Chat__86_132_4678_5658",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 2.5/kg (база 560кг = $1,400)",
+      "price_per_kg_usd": 2.5,
+      "shipping_cost_usd": 1450.0,
+      "additional_fees_usd": 0,
+      "additional_fees_desc": "Не указано",
+      "final_total_usd": 1450.0,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "partial",
+      "pickup_from_nantong": "unknown",
+      "warehouse_address": "Не указано",
+      "warehouse_city": "Не указано",
+      "transit_time": "~30 рабочих дней",
+      "min_charge": "Не указано",
+      "restrictions": "Адрес и город склада не указаны; пикап не обсуждался.",
+      "score": {
+        "price": 31.6,
+        "pickup": 0,
+        "transit": 12.1,
+        "ddp": 7,
+        "proximity": 0,
+        "total": 50.7
+      },
+      "evidence": [
+        {
+          "quote": "2.5 USD/kg Ocean freight, door-to-door with all taxes included Delivery time is about 30 business days. Based on the data you gave me, your total shipping cost would be around 1400 USD",
+          "note": "Цена и срок"
+        }
+      ],
+      "questions_to_clarify": [
+        "Уточнить адрес склада и наличие пикапа из Nantong",
+        "Уточнить точный срок в календарных днях"
+      ],
+      "rank": 16
+    },
+    {
+      "id": "hedy",
+      "company": "Hedy (логистический агент, компания не названа)",
+      "contact": "Hedy",
+      "phone": "+86 130 0378 7897",
+      "file": "WhatsApp_Chat__86_130_0378_7897",
+      "status": "complete",
+      "reliability": "Low",
+      "currency_original": "USD",
+      "price_per_kg_original": "Итоговая цена USD 1,500 (фиксированная)",
+      "price_per_kg_usd": 2.5862,
+      "shipping_cost_usd": 1500.0,
+      "additional_fees_usd": 0,
+      "additional_fees_desc": "Не указано — компания заявила, что 1500 USD включает все расходы",
+      "final_total_usd": 1500.0,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": false,
+        "duties": false,
+        "taxes": false,
+        "door": false,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "unclear",
+      "pickup_from_nantong": "unknown",
+      "warehouse_address": "Не указано",
+      "warehouse_city": "Не указано",
+      "transit_time": "Не указано",
+      "min_charge": "Не указано",
+      "restrictions": "Не указаны срок доставки, наличие пикапа, адрес склада, состав DDP. Только итоговая сумма.",
+      "score": {
+        "price": 30.5,
+        "pickup": 0,
+        "transit": 0,
+        "ddp": 3,
+        "proximity": 0,
+        "total": 33.5
+      },
+      "evidence": [
+        {
+          "quote": "总价 1500USD",
+          "note": "Итоговая цена"
+        },
+        {
+          "quote": "这是所有的费用",
+          "note": "Заявлено, что это все расходы"
+        }
+      ],
+      "questions_to_clarify": [
+        "Уточнить состав цены (DDP, customs, duties)",
+        "Уточнить срок доставки",
+        "Уточнить пикап/склад"
+      ],
+      "rank": 17
+    }
+  ],
+  "incomplete": [
+    {
+      "company": "Nili",
+      "contact": "Nili",
+      "phone": "+1 281 236 7694",
+      "file": "WhatsApp_Chat__1_281_2367694",
+      "status": "incomplete",
+      "reason": "Менеджер не предоставил цену, запросил уточнение названия товара и не ответил после этого.",
+      "missing": [
+        "Цена",
+        "Срок доставки",
+        "Pickup/склад"
+      ],
+      "evidence": [
+        {
+          "quote": "Can you provide some specific product names🫱🏻‍🫲🏻",
+          "note": "Последнее сообщение в чате — без цены"
+        }
+      ]
+    },
+    {
+      "company": "Sky / Jiufang Logistics",
+      "contact": "Sky",
+      "phone": "+86 183 8718 4824",
+      "file": "WhatsApp_Chat__86_183_8718_4824",
+      "status": "incomplete",
+      "reason": "Детальная цена была отправлена как изображение (скриншот), текстовые цифры в переписке отсутствуют, поэтому итоговую стоимость нельзя извлечь и проверить.",
+      "missing": [
+        "Цена (только в виде изображения)",
+        "Текстовое подтверждение суммы"
+      ],
+      "evidence": [
+        {
+          "quote": "‎image omitted ... pls check ... The quoted price is DDP, inclusive of pick-up fee, freight, customs clearance fees, import duties, and door-to-door delivery charges.",
+          "note": "Описание есть, но числовая цена отсутствует в тексте"
+        }
+      ]
+    },
+    {
+      "company": "Ella Chuangjing Logistics",
+      "contact": "Ella",
+      "phone": "Не указано",
+      "file": "WhatsApp_Chat__Ella_chuangjing_logistics",
+      "status": "incomplete",
+      "reason": "Переписка остановилась на вопросе о ближайшем складе к Nantong; цена так и не была предоставлена.",
+      "missing": [
+        "Цена",
+        "Срок доставки",
+        "Адрес склада"
+      ],
+      "evidence": [
+        {
+          "quote": "Which one is the closest to Nantong?",
+          "note": "Последний вопрос клиента — без ответа с ценой"
+        }
+      ]
+    },
+    {
+      "company": "Jlshipping (Nick Xin)",
+      "contact": "Nick Xin",
+      "phone": "Не указано",
+      "file": "WhatsApp_Chat__JlshippingNick_Xin",
+      "status": "incomplete",
+      "reason": "Менеджер пообещал предоставить точную цену на следующий день, но в переписке ответа с ценой нет.",
+      "missing": [
+        "Цена",
+        "Срок доставки",
+        "Pickup/склад"
+      ],
+      "evidence": [
+        {
+          "quote": "Hi,Vlad. Nice to hear from you. We will check a exact price to you by tomorrow when back to work",
+          "note": "Цена не была предоставлена"
+        }
+      ]
+    },
+    {
+      "company": "American New Logistics (上海美新物流) — дублирующий контакт",
+      "contact": "Менеджер не назван",
+      "phone": "Не указано",
+      "file": "WhatsApp_Chat__bravoheda",
+      "status": "incomplete",
+      "reason": "Менеджер ответил только 'OK', цена и условия не предоставлены. Похоже на отдельный контакт той же компании American New Logistics, которая ответила в чате Sandy (8619584048867) с реальной ценой.",
+      "missing": [
+        "Цена",
+        "Срок доставки",
+        "Pickup/склад"
+      ],
+      "evidence": [
+        {
+          "quote": "OK",
+          "note": "Единственный содержательный ответ менеджера"
+        }
+      ]
+    }
+  ]
+}

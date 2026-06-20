@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>南通 → 布鲁克林货运公司比较报告</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="lang-switch"><a href="index.html">RU</a> | <strong>中文</strong> | <a href="yiwu/index.html">Yiwu / Futian 报告 →</a></div>
+    <h1>南通 → 布鲁克林货运公司比较报告</h1>
+    <p class="subtitle" id="header-stats">数据加载中…</p>
+  </div>
+</header>
+
+<main class="container">
+
+  <section id="summary-cards" class="summary-cards"></section>
+
+  <section class="section">
+    <h2>前五名最优方案</h2>
+    <div id="top5" class="top5-grid"></div>
+  </section>
+
+  <section class="section">
+    <h2>所有数据完整公司的比较</h2>
+    <div class="controls">
+      <input type="text" id="search" placeholder="搜索：公司名称、电话、城市、文件…">
+      <label class="checkbox"><input type="checkbox" id="filter-pickup"> 仅显示提供南通提货的公司</label>
+      <label class="checkbox"><input type="checkbox" id="filter-ddp"> 仅显示已确认DDP的公司</label>
+      <select id="sort-by">
+        <option value="score">排序方式：综合评分</option>
+        <option value="price">排序方式：价格</option>
+        <option value="transit">排序方式：运输时效</option>
+      </select>
+    </div>
+    <div class="table-wrap">
+      <table id="main-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>公司 / 联系人</th>
+            <th>电话</th>
+            <th>聊天文件</th>
+            <th>每公斤价格</th>
+            <th>总价（美元）</th>
+            <th>南通提货</th>
+            <th>仓库地址</th>
+            <th>仓库所在城市</th>
+            <th>运输时效</th>
+            <th>DDP</th>
+            <th>包含服务</th>
+            <th>附加费用</th>
+            <th>评分</th>
+            <th>风险 / 备注</th>
+            <th>证明</th>
+          </tr>
+        </thead>
+        <tbody id="main-table-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>各公司详细资料卡片</h2>
+    <div id="detail-cards" class="detail-cards"></div>
+  </section>
+
+  <section class="section">
+    <h2>因数据不完整未纳入排名的公司</h2>
+    <div id="incomplete-list" class="incomplete-list"></div>
+  </section>
+
+  <section class="section methodology">
+    <h2>方法说明</h2>
+    <div id="methodology"></div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>本报告基于与各物流公司的WhatsApp聊天记录自动生成。所有数据均可通过原始引用进行核实。</p>
+  </div>
+</footer>
+
+<script src="app-zh.js"></script>
+</body>
+</html>

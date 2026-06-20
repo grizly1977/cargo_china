@@ -1,0 +1,1132 @@
+{
+  "meta": {
+    "generated_at": "2026-06-17",
+    "total_chats_analyzed": 22,
+    "complete_companies": 17,
+    "incomplete_companies": 5,
+    "base_weight_kg": 580,
+    "rmb_to_usd_rate": 6.75,
+    "cargo_summary": {
+      "origin": "中国江苏省南通市（靠近上海）",
+      "destination": "美国纽约州布鲁克林区 11214",
+      "product": "192套床上用品，100%纯棉，无品牌/无商标",
+      "packing": "24箱，每箱8套，约84×40×40厘米/箱",
+      "gross_weight_kg": 580,
+      "terms": "DDP海运+卡车运输至美国"
+    }
+  },
+  "complete": [
+    {
+      "id": "guanling",
+      "company": "GuanLing Logistics (Stella)",
+      "contact": "Stella",
+      "phone": "+86 151 1252 1956",
+      "file": "WhatsApp_Chat__86_151_1252_1956",
+      "status": "complete",
+      "reliability": "High",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.5/kg + $180 南通提货费",
+      "price_per_kg_usd": 1.5,
+      "shipping_cost_usd": 870.0,
+      "additional_fees_usd": 180.0,
+      "additional_fees_desc": "南通提货费：$180",
+      "final_total_usd": 1050.0,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": true,
+        "pickup": true
+      },
+      "ddp_status": "confirmed",
+      "pickup_from_nantong": "included",
+      "warehouse_address": "直接从南通提货，无需仓库",
+      "warehouse_city": "南通（直接提货）",
+      "transit_time": "32-36个工作日",
+      "min_charge": "未提供",
+      "restrictions": "建议将24箱打成2个托盘，以便简化在美国的本地配送。",
+      "score": {
+        "price": 43.6,
+        "pickup": 20,
+        "transit": 15.0,
+        "ddp": 10,
+        "proximity": 5,
+        "total": 93.6
+      },
+      "evidence": [
+        {
+          "quote": "24ctn, 580kg, 3.2256cbm=539kg / Chargeable weight: 580kg / Pick up fee from Nantong: 180USD",
+          "note": "重量与提货费"
+        },
+        {
+          "quote": "By slow sea+truck, $1.5/kg, DDP, shipping time is about 32-36 working days after sailing.",
+          "note": "单价、DDP、时效"
+        },
+        {
+          "quote": "Total:180+580*1.5=1,050USD",
+          "note": "公司提供的最终计算"
+        }
+      ],
+      "questions_to_clarify": [
+        "确认货物可提货的具体日期"
+      ],
+      "rank": 1
+    },
+    {
+      "id": "sunluck",
+      "company": "Shenzhen SunLuck Supplychain (Jason Jiang)",
+      "contact": "Jason Jiang",
+      "phone": "未提供",
+      "file": "WhatsApp_Chat__Jason_Jiang",
+      "status": "complete",
+      "reliability": "High",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.66/kg + $74.63 卡车运费",
+      "price_per_kg_usd": 1.66,
+      "shipping_cost_usd": 962.8,
+      "additional_fees_usd": 74.63,
+      "additional_fees_desc": "卡车运费（送至义乌仓库，已计入总价）：$74.63",
+      "final_total_usd": 1037.43,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": true,
+        "pickup": true
+      },
+      "ddp_status": "confirmed",
+      "pickup_from_nantong": "included",
+      "warehouse_address": "No. 19, Building 1, Huatong Group, Gutang Industrial Zone, Yiting Town, Yiwu City",
+      "warehouse_city": "义乌（浙江）",
+      "transit_time": "40-50天",
+      "min_charge": "未提供",
+      "restrictions": "公司要求发货时在箱子上注明客户姓名。",
+      "score": {
+        "price": 44.2,
+        "pickup": 20,
+        "transit": 11.3,
+        "ddp": 10,
+        "proximity": 3,
+        "total": 88.5
+      },
+      "evidence": [
+        {
+          "quote": "the door-to-door DDP shipping service fee for unbranded bedding via ocean freight is: $1.66/kg + $74.63 for trucking fees.",
+          "note": "价格及构成"
+        },
+        {
+          "quote": "This price is for delivery to our warehouse. We'll ship it to our Yiwu warehouse, which is closer to the factory.",
+          "note": "卡车运费=送至义乌仓库的费用"
+        },
+        {
+          "quote": "Estimated delivery time: 40–50 days after vessel departure for pickup and delivery.",
+          "note": "时效"
+        }
+      ],
+      "questions_to_clarify": [
+        "根据货物实际测量结果确认最终价格"
+      ],
+      "rank": 2
+    },
+    {
+      "id": "anl_sandy",
+      "company": "ANL (American New Logistics) — Sandy",
+      "contact": "Sandy",
+      "phone": "+86 19584048867",
+      "file": "WhatsApp_Chat__8619584048867",
+      "status": "complete",
+      "reliability": "High",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.78/kg（三种报价中最便宜的一种）",
+      "price_per_kg_usd": 1.78,
+      "shipping_cost_usd": 1032.4,
+      "additional_fees_usd": 0,
+      "additional_fees_desc": "未提供附加费用",
+      "final_total_usd": 1032.4,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "confirmed",
+      "pickup_from_nantong": "not_available",
+      "warehouse_address": "未提供（仅有城市信息）",
+      "warehouse_city": "上海",
+      "transit_time": "38-40天",
+      "min_charge": "未提供",
+      "restrictions": "另外还提供了更快/更贵的方案：$2.33/kg（30-35天）、$3.05/kg（23-26天）。供应商需自行将货物送到上海仓库。",
+      "score": {
+        "price": 44.4,
+        "pickup": 8,
+        "transit": 13.1,
+        "ddp": 10,
+        "proximity": 4,
+        "total": 79.4
+      },
+      "evidence": [
+        {
+          "quote": "USD2.33/kg 30-35Days / USD3.05/KG 23-26Days / USD1.78/KG 38-40Days",
+          "note": "三种报价方案"
+        },
+        {
+          "quote": "the price includes door delivery, customs clearance, duties, and taxes",
+          "note": "DDP确认"
+        },
+        {
+          "quote": "Need the supplier send the goods to our Shanghai warehosue",
+          "note": "仓库在上海，未安排提货"
+        }
+      ],
+      "questions_to_clarify": [
+        "确认从南通到上海仓库的提货费用及可行性"
+      ],
+      "rank": 3
+    },
+    {
+      "id": "ruby",
+      "company": "Jessie Huang / Ruby（公司名称未提供）",
+      "contact": "Ruby / Jessie Huang",
+      "phone": "未提供（群聊）",
+      "file": "WhatsApp_Chat__VladRuby20260615US",
+      "status": "complete",
+      "reliability": "High",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.75/kg + $161.76 提货费",
+      "price_per_kg_usd": 1.75,
+      "shipping_cost_usd": 1015.0,
+      "additional_fees_usd": 161.76,
+      "additional_fees_desc": "从南通到深圳仓库的提货费：$161.76",
+      "final_total_usd": 1176.76,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": false,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": true
+      },
+      "ddp_status": "partial",
+      "pickup_from_nantong": "paid",
+      "warehouse_address": "Gate 2, at the end of Building D, Huasheng Industrial Park, Huan Guan South Road, Longhua District, Shenzhen City",
+      "warehouse_city": "深圳（广东）",
+      "transit_time": "40-45个工作日",
+      "min_charge": "未提供",
+      "restrictions": "提货费需单独支付（通过中国本地物流公司）。",
+      "score": {
+        "price": 38.9,
+        "pickup": 14,
+        "transit": 12.0,
+        "ddp": 7,
+        "proximity": 5,
+        "total": 76.9
+      },
+      "evidence": [
+        {
+          "quote": "$1.9/KG 40-45working days by sea+truck by DDP",
+          "note": "初始报价"
+        },
+        {
+          "quote": "so how about the price for $1.75, this is the lowest price",
+          "note": "最终商定价格"
+        },
+        {
+          "quote": "580*$1.75+$161.76=$1176.76",
+          "note": "公司提供的最终计算"
+        },
+        {
+          "quote": "our warehouse address: Gate 2, at the end of Building D, Huasheng Industrial Park, Huan Guan South Road, Longhua District, Shenzhen City, Guangdong Province",
+          "note": "仓库地址"
+        }
+      ],
+      "questions_to_clarify": [
+        "确认DDP具体构成（清关/关税/税费未单独列明）"
+      ],
+      "rank": 4
+    },
+    {
+      "id": "furuitong",
+      "company": "Shenzhen Furuitong Supply",
+      "contact": "未提供联系人姓名",
+      "phone": "+86 181 7469 5900",
+      "file": "WhatsApp_Chat__86_181_7469_5900",
+      "status": "complete",
+      "reliability": "High",
+      "currency_original": "RMB",
+      "price_per_kg_original": "RMB 12/kg（慢船，更便宜）或 RMB 16/kg（快递线路）",
+      "price_per_kg_usd": 1.7778,
+      "shipping_cost_usd": 1031.11,
+      "additional_fees_usd": 0,
+      "additional_fees_desc": "未提供",
+      "final_total_usd": 1031.11,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "confirmed",
+      "pickup_from_nantong": "not_available",
+      "warehouse_address": "未提供（仅有城市信息）",
+      "warehouse_city": "义乌（浙江）",
+      "transit_time": "40-50天（慢船）/ 30-35天（快递线路）",
+      "min_charge": "未提供",
+      "restrictions": "备选方案：经洛杉矶的快递线路，RMB 16/kg，30-35天，价格更高。",
+      "score": {
+        "price": 44.4,
+        "pickup": 8,
+        "transit": 11.3,
+        "ddp": 10,
+        "proximity": 3,
+        "total": 76.8
+      },
+      "evidence": [
+        {
+          "quote": "We have a warehouse in Yiwu, China, and our goods can be directly delivered to our Yiwu warehouse center.",
+          "note": "义乌仓库"
+        },
+        {
+          "quote": "it is estimated to cost 12 RMB/kg, and it is estimated that you will receive your goods in about 40-50 days",
+          "note": "慢船线路"
+        },
+        {
+          "quote": "This quotation includes your taxes and customs clearance fees.",
+          "note": "DDP已确认"
+        }
+      ],
+      "questions_to_clarify": [
+        "确认从南通到义乌仓库的运费"
+      ],
+      "rank": 5
+    },
+    {
+      "id": "unreal_china",
+      "company": "Unreal China（Gulmira Savatbek）",
+      "contact": "Gulmira Savatbek",
+      "phone": "+996 702 877 117",
+      "file": "WhatsApp_Chat__996_702_877_117",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.81/kg 慢船（初步估算）或 2.23/kg 快船",
+      "price_per_kg_usd": 1.81,
+      "shipping_cost_usd": 1049.8,
+      "additional_fees_usd": 100,
+      "additional_fees_desc": "从南通供应商处提货至仓库的提货费：$100",
+      "final_total_usd": 1149.8,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": true
+      },
+      "ddp_status": "partial",
+      "pickup_from_nantong": "paid",
+      "warehouse_address": "上海市青浦区华新镇嘉松中路3299号B05－B06，联系人：天昂 18664939534（收货时间：周一至周六10:00-21:00）",
+      "warehouse_city": "上海（公司推荐，比东莞主仓库更靠近南通）",
+      "transit_time": "40-50天（慢船）；或26-32天，费用为$1,293.4 + 提货费（快船）",
+      "min_charge": "未提供；该方案下最大箱规：120×100×180厘米",
+      "restrictions": "该价格为初步估算，并非最终价格（公司明确说明，实际装箱后价格可能会有变化）。聊天接近结束时，公司提出由于美国海关检查力度加强，纺织品需要CPC/GCC认证；截至聊天结束，物流人员尚未确认该认证是否适用于无品牌、无标志、无电池的床上用品——这存在延误和额外费用的风险。",
+      "score": {
+        "price": 39.8,
+        "pickup": 14,
+        "transit": 11.3,
+        "ddp": 7,
+        "proximity": 4,
+        "total": 76.1
+      },
+      "evidence": [
+        {
+          "quote": "580kg*1.81=1 049,8$, срок доставки 40-50 дней\n580kg*2.23=1 293,4$, срок доставки 26-32 дней\n\n*стоимость пикапа:100$",
+          "note": "针对主要货物（580公斤，192套床上用品）的初步估算及南通提货费"
+        },
+        {
+          "quote": "Если вы хотите отправить груз по DDP, надежнее всего выбрать сборную доставку в коробках. При схеме \"море + трак\" в стоимость уже «под ключ» входят все таможенные процедуры, досмотры и прочие расходы. Это гораздо безопаснее для вас",
+          "note": "总体确认海运+卡车拼箱方案按DDP条款组织"
+        },
+        {
+          "quote": "Требуется сертификация CPC или GCC",
+          "note": "认证要求是在报价之后提出的——截至聊天结束，尚未就该产品最终确认"
+        },
+        {
+          "quote": "上海市青浦区华新镇嘉松中路3299号B05－B06  联系人：天昂 18664939534 （收货时间：周一至周六10:00-21:00）",
+          "note": "上海仓库地址——作为比东莞仓库（距南通约400公里）更近的备选方案提出"
+        }
+      ],
+      "questions_to_clarify": [
+        "确认无品牌、无标志、无电池的床上用品是否需要CPC/GCC认证",
+        "在确认具体装箱方式后获取最终（非初步）报价",
+        "确认本批货物的最终价格是否包含关税和税费",
+        "确认能否直接从南通地址（叠石桥国际家纺城）安排提货，无需额外协调"
+      ],
+      "rank": 6
+    },
+    {
+      "id": "eusa",
+      "company": "EUSA",
+      "contact": "EUSA（联系人姓名未提供）",
+      "phone": "+1 470 408 1051",
+      "file": "WhatsApp_Chat__1_470_4081051",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.92/kg（实际按560公斤计算）",
+      "price_per_kg_usd": 1.92,
+      "shipping_cost_usd": 1113.6,
+      "additional_fees_usd": 81.48,
+      "additional_fees_desc": "从南通到义乌/金华地区仓库的运费：RMB 500–600 ≈ $74.07–88.89（汇率6.75），计算时取区间中位数",
+      "final_total_usd": 1195.08,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "partial",
+      "pickup_from_nantong": "paid",
+      "warehouse_address": "浙江省金华市金东区金义综合保税区S2仓C区（浙江金华，靠近义乌）",
+      "warehouse_city": "义乌 / 金华（浙江）",
+      "transit_time": "约40天",
+      "min_charge": "未提供",
+      "restrictions": "价格不包含从供应商到公司仓库的运费；不直接安排从工厂提货。",
+      "score": {
+        "price": 38.3,
+        "pickup": 14,
+        "transit": 12.8,
+        "ddp": 7,
+        "proximity": 3,
+        "total": 75.1
+      },
+      "evidence": [
+        {
+          "quote": "Transit time: around 40 days，total cost: USD 1,073 (based on 560kg chargeable weight)",
+          "note": "基础价格与时效"
+        },
+        {
+          "quote": "Our rate is USD 1.92/kg.",
+          "note": "每公斤单价"
+        },
+        {
+          "quote": "The total cost is around RMB 400, plus highway tolls of about RMB 100–200, so the estimated total is approximately RMB 500–600.",
+          "note": "送至义乌仓库的运费"
+        }
+      ],
+      "questions_to_clarify": [
+        "确认580公斤情况下的最终价格（报价基于560公斤）",
+        "确认送仓的确切费用（RMB 500-600区间）",
+        "获取明确的DDP确认，并列明包含的具体项目"
+      ],
+      "rank": 7
+    },
+    {
+      "id": "itsgood",
+      "company": "ITSGOOD Logistics",
+      "contact": "未提供联系人姓名",
+      "phone": "+86 180 0252 2095",
+      "file": "WhatsApp_Chat__86_180_0252_2095",
+      "status": "complete",
+      "reliability": "High",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.7/kg（按560公斤计算=$943.5）",
+      "price_per_kg_usd": 1.7,
+      "shipping_cost_usd": 986.0,
+      "additional_fees_usd": 25.0,
+      "additional_fees_desc": "客户承担的工厂到仓库本地运费（货拉拉）份额：$25",
+      "final_total_usd": 1011.0,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": true
+      },
+      "ddp_status": "confirmed",
+      "pickup_from_nantong": "paid",
+      "warehouse_address": "义乌市稠江街 道德贸路2号启函物流园二层平台33号门（皓鹏）",
+      "warehouse_city": "义乌（浙江），距南通约360公里",
+      "transit_time": "未提供",
+      "min_charge": "未提供",
+      "restrictions": "聊天记录中未提供运输时效。",
+      "score": {
+        "price": 45.3,
+        "pickup": 14,
+        "transit": 0,
+        "ddp": 10,
+        "proximity": 3,
+        "total": 72.3
+      },
+      "evidence": [
+        {
+          "quote": "The total sea freight is 943.5 US dollars, and the cost includes: pick-up, transportation, customs clearance and delivery.",
+          "note": "价格及构成"
+        },
+        {
+          "quote": "The total cost is 943.5 dollars, and the unit price is 1.7 dollars.",
+          "note": "每公斤单价"
+        },
+        {
+          "quote": "How about I pay 30 dollars and you bear 25 dollars?",
+          "note": "送仓本地运费的分摊"
+        }
+      ],
+      "questions_to_clarify": [
+        "确认运输时效"
+      ],
+      "rank": 8
+    },
+    {
+      "id": "alan_gz",
+      "company": "Alan（广州，公司名称未提供）",
+      "contact": "Alan",
+      "phone": "未提供",
+      "file": "WhatsApp_Chat__Alan",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.7/kg（最终报价，含提货）",
+      "price_per_kg_usd": 1.7,
+      "shipping_cost_usd": 986.0,
+      "additional_fees_usd": 0,
+      "additional_fees_desc": "最初提到1.85美元/公斤方案需额外支付$100运费；不清楚该费用是否适用于最终的1.7美元/公斤报价",
+      "final_total_usd": 986.0,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": false,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": true
+      },
+      "ddp_status": "partial",
+      "pickup_from_nantong": "paid",
+      "warehouse_address": "广州白云区唐阁路135号聚星产业园6栋101-102号（广州）",
+      "warehouse_city": "广州（距南通较远）",
+      "transit_time": "未提供",
+      "min_charge": "未提供",
+      "restrictions": "谈判未以书面形式最终确定；不清楚$100运费是否已包含在最终的1.7美元/公斤报价中。仓库距离非常远（广州）。",
+      "score": {
+        "price": 46.5,
+        "pickup": 14,
+        "transit": 0,
+        "ddp": 7,
+        "proximity": 1,
+        "total": 68.5
+      },
+      "evidence": [
+        {
+          "quote": "The shipping fee is 1.85 US dollars per kilogram / An additional delivery fee of 100 US dollars is required / DDP",
+          "note": "最初报价"
+        },
+        {
+          "quote": "You pay 1.7 US dollars and I'll cover the shipping cost",
+          "note": "最终报价——提货已包含在价格中"
+        },
+        {
+          "quote": "仓库地址：广州白云区唐阁路135号聚星产业园6栋101-102号",
+          "note": "仓库地址"
+        }
+      ],
+      "questions_to_clarify": [
+        "以书面形式确认最终价格及构成（是否包含$100运费）",
+        "确认运输时效"
+      ],
+      "rank": 9
+    },
+    {
+      "id": "jiyang_alan",
+      "company": "Jiyang International (Alan / Liu Xing)",
+      "contact": "Alan (Liu Xing)",
+      "phone": "+86 158 2104 3726",
+      "file": "WhatsApp_Chat__86_158_2104_3726",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "RMB",
+      "price_per_kg_original": "RMB 9.8/kg + RMB 500/提单",
+      "price_per_kg_usd": 1.4519,
+      "shipping_cost_usd": 842.07,
+      "additional_fees_usd": 74.07,
+      "additional_fees_desc": "RMB 500/提单（超大货物卡车运费附加费）",
+      "final_total_usd": 916.14,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": false,
+        "duties": false,
+        "taxes": false,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "unclear",
+      "pickup_from_nantong": "not_available",
+      "warehouse_address": "上海浦东新区航城路1132号浦东空港协信产业园2号仓库一层 B-1-(13-24号口)",
+      "warehouse_city": "上海",
+      "transit_time": "未提供",
+      "min_charge": "快递服务仅适用于12-22公斤/箱的货物，且无需额外支付500元/提单",
+      "restrictions": "在询问后未明确重新确认DDP；价格不包含从南通工厂到上海仓库的运费（需单独计算）。",
+      "score": {
+        "price": 50.0,
+        "pickup": 8,
+        "transit": 0,
+        "ddp": 3,
+        "proximity": 4,
+        "total": 65.0
+      },
+      "evidence": [
+        {
+          "quote": "Brooklyn, NY 11214, USA RMB9.8/kg +500/BL",
+          "note": "价格"
+        },
+        {
+          "quote": "This price does not include the freight charges for picking up goods at the factory in Nantong, Jiangsu, China. These charges need to be calculated separately.",
+          "note": "未包含提货"
+        },
+        {
+          "quote": "上海浦东新区航城路1132号浦东空港协信产业园2号仓库一层 B-1-(13-24号口)",
+          "note": "上海仓库地址"
+        }
+      ],
+      "questions_to_clarify": [
+        "确认清关/关税/税费是否包含在价格内（DDP未明确确认）",
+        "确认运输时效",
+        "确认从南通到上海仓库的运费"
+      ],
+      "rank": 10
+    },
+    {
+      "id": "niuku",
+      "company": "Niuku Int'l (Martin Lee)",
+      "contact": "Martin Lee",
+      "phone": "未提供",
+      "file": "WhatsApp_Chat__Martin_LeeNiuku_Intl",
+      "status": "complete",
+      "reliability": "High",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1.19/kg + $423 卡车运费",
+      "price_per_kg_usd": 1.19,
+      "shipping_cost_usd": 690.2,
+      "additional_fees_usd": 423.0,
+      "additional_fees_desc": "卡车运费（从上海仓库到布鲁克林）：$423",
+      "final_total_usd": 1113.2,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "confirmed",
+      "pickup_from_nantong": "not_available",
+      "warehouse_address": "上海仓库（具体地址未提供）",
+      "warehouse_city": "上海",
+      "transit_time": "未提供",
+      "min_charge": "该价格适用于4-5立方米以内的货量（1立方米=167公斤）；超出部分价格另算",
+      "restrictions": "未提供运输时效。从南通到上海仓库的运输由供应商/客户自行负责。",
+      "score": {
+        "price": 41.1,
+        "pickup": 8,
+        "transit": 0,
+        "ddp": 10,
+        "proximity": 4,
+        "total": 63.1
+      },
+      "evidence": [
+        {
+          "quote": "DDP from our Shanghai warehouse to 7822 20th ave, Brooklyn, NY,11214 including the tariff : usd1.19/kg+trucking delivery fee:usd423.",
+          "note": "价格及构成"
+        },
+        {
+          "quote": "total about 1.19$*580kg+423$=usd1113.20",
+          "note": "公司提供的最终计算（与580公斤基准完全一致）"
+        },
+        {
+          "quote": "Please note that our conversion rate for volume weight and actual weight is based on the principle of we will charge the larger KG data, and it is based on 1 CBM: 167 KG.",
+          "note": "体积重量计算规则"
+        }
+      ],
+      "questions_to_clarify": [
+        "确认运输时效"
+      ],
+      "rank": 11
+    },
+    {
+      "id": "jason_unnamed",
+      "company": "Jason（公司名称未提供）",
+      "contact": "Jason",
+      "phone": "+86 135 1069 9731",
+      "file": "WhatsApp_Chat__86_135_1069_9731",
+      "status": "complete",
+      "reliability": "High",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 2.2/kg（按560公斤计算=$1,232）",
+      "price_per_kg_usd": 2.2,
+      "shipping_cost_usd": 1276.0,
+      "additional_fees_usd": 0,
+      "additional_fees_desc": "未提供",
+      "final_total_usd": 1276.0,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": true,
+        "pickup": false
+      },
+      "ddp_status": "confirmed",
+      "pickup_from_nantong": "not_available",
+      "warehouse_address": "未提供（仅有距离信息）",
+      "warehouse_city": "未提供，距南通约1464公里",
+      "transit_time": "40-45天",
+      "min_charge": "未提供",
+      "restrictions": "仓库距南通非常远（约1464公里，车程约15小时）；公司名称未提供。",
+      "score": {
+        "price": 35.9,
+        "pickup": 3,
+        "transit": 12.0,
+        "ddp": 10,
+        "proximity": 1,
+        "total": 61.9
+      },
+      "evidence": [
+        {
+          "quote": "Total cost: USD 1,232 / Rate: USD 2.2 / KG × 560 KG = USD 1,232",
+          "note": "价格"
+        },
+        {
+          "quote": "Sea freight (LCL consolidation) / Export & import customs clearance / Duties and taxes included / Door-to-door delivery to Brooklyn, NY",
+          "note": "DDP构成"
+        },
+        {
+          "quote": "The fastest driving time is approximately 15 hours and 18 minutes, covering a total distance of about 1,464.0 kilometers.",
+          "note": "到仓库的距离"
+        }
+      ],
+      "questions_to_clarify": [
+        "确认公司名称",
+        "确认仓库具体地址"
+      ],
+      "rank": 12
+    },
+    {
+      "id": "twotigers",
+      "company": "Two Tigers Global Logistics",
+      "contact": "未提供联系人姓名",
+      "phone": "+86 133 1618 9698",
+      "file": "WhatsApp_Chat__86_133_1618_9698",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "RMB",
+      "price_per_kg_original": "RMB 12.5/kg + RMB 500 运费",
+      "price_per_kg_usd": 1.8519,
+      "shipping_cost_usd": 1074.07,
+      "additional_fees_usd": 74.07,
+      "additional_fees_desc": "RMB 500 运费",
+      "final_total_usd": 1148.14,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "confirmed",
+      "pickup_from_nantong": "not_available",
+      "warehouse_address": "未提供（仅有城市信息）",
+      "warehouse_city": "深圳（广东）",
+      "transit_time": "未提供",
+      "min_charge": "未提供",
+      "restrictions": "仓库距南通较远（中国南部）；未安排提货。",
+      "score": {
+        "price": 39.9,
+        "pickup": 8,
+        "transit": 0,
+        "ddp": 10,
+        "proximity": 1,
+        "total": 58.9
+      },
+      "evidence": [
+        {
+          "quote": "Door-to-door delivery, customs clearance and tax included.",
+          "note": "DDP已确认"
+        },
+        {
+          "quote": "12.5/kg + 500 delivery fee",
+          "note": "人民币报价"
+        },
+        {
+          "quote": "Our warehouse is in Shenzhen, Guangdong.",
+          "note": "仓库城市"
+        }
+      ],
+      "questions_to_clarify": [
+        "确认运输时效",
+        "确认从南通到深圳的运费"
+      ],
+      "rank": 13
+    },
+    {
+      "id": "hke_sophia",
+      "company": "HKE Logistics (Sophia)",
+      "contact": "Sophia",
+      "phone": "未提供",
+      "file": "WhatsApp_Chat__HKE_LogisticsSophia_Raw",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1,127总价（600公斤，托盘装），最新报价",
+      "price_per_kg_usd": 1.8783,
+      "shipping_cost_usd": 1127.0,
+      "additional_fees_usd": 0,
+      "additional_fees_desc": "南通提货费未包含（明确说明）",
+      "final_total_usd": 1127.0,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": false,
+        "taxes": false,
+        "door": false,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "partial",
+      "pickup_from_nantong": "not_available",
+      "warehouse_address": "未提供",
+      "warehouse_city": "未提供",
+      "transit_time": "50-55天",
+      "min_charge": "不使用托盘时：每箱限重21.5公斤",
+      "restrictions": "聊天记录中出现多个不一致的价格（不同方案从$1,355到$1,993.8）；未提供仓库地址；明确说明南通提货费未包含。",
+      "score": {
+        "price": 40.6,
+        "pickup": 0,
+        "transit": 9.7,
+        "ddp": 7,
+        "proximity": 0,
+        "total": 57.4
+      },
+      "evidence": [
+        {
+          "quote": "600KG, need packed with pallet dear. price is $1,127. take 50~55 days",
+          "note": "最终价格与时效"
+        },
+        {
+          "quote": "not including the pick up fee",
+          "note": "未包含提货"
+        },
+        {
+          "quote": "Sea DDP=$1,355, take 30~35 days . delivery by UPS",
+          "note": "此前针对其他方案的报价"
+        }
+      ],
+      "questions_to_clarify": [
+        "确认针对580公斤/24箱规格的最终价格",
+        "确认仓库地址",
+        "确认南通提货费用"
+      ],
+      "rank": 14
+    },
+    {
+      "id": "ailee",
+      "company": "Ai Lee Logistics",
+      "contact": "Ai Lee Logistics",
+      "phone": "+852 6657 4665",
+      "file": "WhatsApp_Chat__852_6657_4665",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 1,211 total / 560kg = 2.1625 USD/kg",
+      "price_per_kg_usd": 2.1625,
+      "shipping_cost_usd": 1254.25,
+      "additional_fees_usd": 0,
+      "additional_fees_desc": "从南通到义乌仓库的运费（约300公里）——未单独说明费用",
+      "final_total_usd": 1254.25,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": false,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "partial",
+      "pickup_from_nantong": "not_available",
+      "warehouse_address": "义乌市稠江街道弘贸路圣达街跨境电商物流园S3地块3栋3-2-2-1F星航物流（义乌）",
+      "warehouse_city": "义乌（浙江）",
+      "transit_time": "未提供",
+      "min_charge": "未提供",
+      "restrictions": "最终价格未最终确定（谈判从$1211向约$952-1000浮动）；未提供运输时效。",
+      "score": {
+        "price": 36.5,
+        "pickup": 8,
+        "transit": 0,
+        "ddp": 7,
+        "proximity": 3,
+        "total": 54.5
+      },
+      "evidence": [
+        {
+          "quote": "Your shipping cost is $1,211 - that's calculated based on 560 kilograms",
+          "note": "基础价格"
+        },
+        {
+          "quote": "So your DDP is 952usd",
+          "note": "客服在议价过程中确认了DDP这一术语"
+        },
+        {
+          "quote": "About 300 kilometers. China is huge, so that's really pretty close",
+          "note": "到仓库的距离"
+        }
+      ],
+      "questions_to_clarify": [
+        "以书面形式确定最终价格（谈判尚未结束）",
+        "确认运输时效",
+        "确认从南通到义乌仓库的运费"
+      ],
+      "rank": 15
+    },
+    {
+      "id": "henry",
+      "company": "快速通达货运代理 (Henry)",
+      "contact": "Henry",
+      "phone": "+86 132 4678 5658",
+      "file": "WhatsApp_Chat__86_132_4678_5658",
+      "status": "complete",
+      "reliability": "Medium",
+      "currency_original": "USD",
+      "price_per_kg_original": "USD 2.5/kg（按560公斤计算=$1,400）",
+      "price_per_kg_usd": 2.5,
+      "shipping_cost_usd": 1450.0,
+      "additional_fees_usd": 0,
+      "additional_fees_desc": "未提供",
+      "final_total_usd": 1450.0,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": true,
+        "duties": true,
+        "taxes": true,
+        "door": true,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "partial",
+      "pickup_from_nantong": "unknown",
+      "warehouse_address": "未提供",
+      "warehouse_city": "未提供",
+      "transit_time": "约30个工作日",
+      "min_charge": "未提供",
+      "restrictions": "仓库地址和城市均未提供；未讨论提货事宜。",
+      "score": {
+        "price": 31.6,
+        "pickup": 0,
+        "transit": 12.1,
+        "ddp": 7,
+        "proximity": 0,
+        "total": 50.7
+      },
+      "evidence": [
+        {
+          "quote": "2.5 USD/kg Ocean freight, door-to-door with all taxes included Delivery time is about 30 business days. Based on the data you gave me, your total shipping cost would be around 1400 USD",
+          "note": "价格与时效"
+        }
+      ],
+      "questions_to_clarify": [
+        "确认仓库地址及南通提货的可行性",
+        "确认具体的日历天数时效"
+      ],
+      "rank": 16
+    },
+    {
+      "id": "hedy",
+      "company": "Hedy（物流代理，公司名称未提供）",
+      "contact": "Hedy",
+      "phone": "+86 130 0378 7897",
+      "file": "WhatsApp_Chat__86_130_0378_7897",
+      "status": "complete",
+      "reliability": "Low",
+      "currency_original": "USD",
+      "price_per_kg_original": "总价USD 1,500（固定价格）",
+      "price_per_kg_usd": 2.5862,
+      "shipping_cost_usd": 1500.0,
+      "additional_fees_usd": 0,
+      "additional_fees_desc": "未提供——公司表示1500美元已包含所有费用",
+      "final_total_usd": 1500.0,
+      "included": {
+        "sea": true,
+        "truck": true,
+        "customs": false,
+        "duties": false,
+        "taxes": false,
+        "door": false,
+        "warehouse_handling": false,
+        "pickup": false
+      },
+      "ddp_status": "unclear",
+      "pickup_from_nantong": "unknown",
+      "warehouse_address": "未提供",
+      "warehouse_city": "未提供",
+      "transit_time": "未提供",
+      "min_charge": "未提供",
+      "restrictions": "未提供运输时效、提货安排、仓库地址及DDP构成，仅提供了总价。",
+      "score": {
+        "price": 30.5,
+        "pickup": 0,
+        "transit": 0,
+        "ddp": 3,
+        "proximity": 0,
+        "total": 33.5
+      },
+      "evidence": [
+        {
+          "quote": "总价 1500USD",
+          "note": "总价"
+        },
+        {
+          "quote": "这是所有的费用",
+          "note": "声明这是全部费用"
+        }
+      ],
+      "questions_to_clarify": [
+        "确认价格构成（DDP、清关、关税）",
+        "确认运输时效",
+        "确认提货/仓库信息"
+      ],
+      "rank": 17
+    }
+  ],
+  "incomplete": [
+    {
+      "company": "Nili",
+      "contact": "Nili",
+      "phone": "+1 281 236 7694",
+      "file": "WhatsApp_Chat__1_281_2367694",
+      "status": "incomplete",
+      "reason": "客服未提供价格，要求确认产品名称后未再回复。",
+      "missing": [
+        "价格",
+        "运输时效",
+        "提货/仓库"
+      ],
+      "evidence": [
+        {
+          "quote": "Can you provide some specific product names🫱🏻‍🫲🏻",
+          "note": "聊天记录中的最后一条消息——未提供价格"
+        }
+      ]
+    },
+    {
+      "company": "Sky / Jiufang Logistics",
+      "contact": "Sky",
+      "phone": "+86 183 8718 4824",
+      "file": "WhatsApp_Chat__86_183_8718_4824",
+      "status": "incomplete",
+      "reason": "详细价格以图片（截图）形式发送，聊天文字记录中没有具体数字，因此无法提取和核实最终价格。",
+      "missing": [
+        "价格（仅以图片形式提供）",
+        "金额的文字确认"
+      ],
+      "evidence": [
+        {
+          "quote": "‎image omitted ... pls check ... The quoted price is DDP, inclusive of pick-up fee, freight, customs clearance fees, import duties, and door-to-door delivery charges.",
+          "note": "有文字说明，但文本中没有具体数字价格"
+        }
+      ]
+    },
+    {
+      "company": "Ella Chuangjing Logistics",
+      "contact": "Ella",
+      "phone": "未提供",
+      "file": "WhatsApp_Chat__Ella_chuangjing_logistics",
+      "status": "incomplete",
+      "reason": "对话停留在询问离南通最近的仓库这一问题上；最终未提供价格。",
+      "missing": [
+        "价格",
+        "运输时效",
+        "仓库地址"
+      ],
+      "evidence": [
+        {
+          "quote": "Which one is the closest to Nantong?",
+          "note": "客户的最后一个问题——未获得价格回复"
+        }
+      ]
+    },
+    {
+      "company": "Jlshipping (Nick Xin)",
+      "contact": "Nick Xin",
+      "phone": "未提供",
+      "file": "WhatsApp_Chat__JlshippingNick_Xin",
+      "status": "incomplete",
+      "reason": "客服承诺第二天提供准确价格，但聊天记录中没有给出价格的回复。",
+      "missing": [
+        "价格",
+        "运输时效",
+        "提货/仓库"
+      ],
+      "evidence": [
+        {
+          "quote": "Hi,Vlad. Nice to hear from you. We will check a exact price to you by tomorrow when back to work",
+          "note": "未提供价格"
+        }
+      ]
+    },
+    {
+      "company": "American New Logistics（上海美新物流）——重复联系方式",
+      "contact": "未提供联系人姓名",
+      "phone": "未提供",
+      "file": "WhatsApp_Chat__bravoheda",
+      "status": "incomplete",
+      "reason": "客服只回复了'OK'，未提供价格和条件。这似乎是同一家American New Logistics公司的另一个联系方式，该公司在Sandy（8619584048867）的聊天中提供了实际报价。",
+      "missing": [
+        "价格",
+        "运输时效",
+        "提货/仓库"
+      ],
+      "evidence": [
+        {
+          "quote": "OK",
+          "note": "客服唯一的实质性回复"
+        }
+      ]
+    }
+  ]
+}

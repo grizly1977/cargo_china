@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Первая закупка в Китае</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="app">
+
+  <header class="app-header">
+    <h1 class="app-title">Первая закупка в Китае</h1>
+    <p class="app-subtitle">20 июня 2026 года · Китай</p>
+
+    <div class="summary-stats" id="summaryStats">
+      <div class="stat-card stat-total">
+        <span class="stat-value" id="statTotal">0</span>
+        <span class="stat-label">всего карточек</span>
+      </div>
+      <div class="stat-card stat-shipped">
+        <span class="stat-value" id="statShipped">0</span>
+        <span class="stat-label">товар отправлен</span>
+      </div>
+      <div class="stat-card stat-planned">
+        <span class="stat-value" id="statPlanned">0</span>
+        <span class="stat-label">планируется</span>
+      </div>
+      <div class="stat-card stat-preparing">
+        <span class="stat-value" id="statPreparing">0</span>
+        <span class="stat-label">подготавливается</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="search-bar">
+    <input type="search" id="searchInput" class="search-input"
+           placeholder="Поиск: товар, номер, поставщик, WeChat ID...">
+  </div>
+
+  <div class="filter-chips" id="filterChips">
+    <button class="chip chip-active" data-status="all">Все</button>
+    <button class="chip" data-status="товар отправлен">Товар отправлен</button>
+    <button class="chip" data-status="планируется">Планируется</button>
+    <button class="chip" data-status="подготавливается">Подготавливается</button>
+  </div>
+
+  <main id="cardsContainer" class="cards-container"></main>
+
+  <div id="emptyState" class="empty-state" hidden>
+    <div class="empty-state-icon">📦</div>
+    <h2 class="empty-state-title">Пока нет карточек закупки</h2>
+    <p class="empty-state-text">Добавьте ZIP-архивы в папку <code>purchase-archives</code> и запустите импорт.</p>
+  </div>
+
+  <div id="noResultsState" class="empty-state" hidden>
+    <div class="empty-state-icon">🔍</div>
+    <h2 class="empty-state-title">Ничего не найдено</h2>
+    <p class="empty-state-text">Попробуйте изменить поиск или фильтр по статусу.</p>
+  </div>
+
+  <div id="loadingState" class="loading-state">
+    <div class="spinner"></div>
+    <p>Загрузка данных закупки…</p>
+  </div>
+
+  <div id="detailOverlay" class="detail-overlay" hidden>
+    <div class="detail-view" id="detailView"></div>
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

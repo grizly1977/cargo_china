@@ -16,10 +16,13 @@
   --color-status-shipped-text: #2a8a4a;
   --color-status-planned-bg: #eaf0fb;
   --color-status-planned-text: #4b66c1;
-  --color-status-preparing-bg: #fdf0e3;
-  --color-status-preparing-text: #c1791f;
+  --color-status-preparing-bg: #e0f4fb;
+  --color-status-preparing-text: #1d84b5;
   --color-status-unknown-bg: #ececec;
   --color-status-unknown-text: #6e6e73;
+
+  --color-note-bg: #fdf0e3;
+  --color-note-text: #c1791f;
 
   --color-action-required-bg: #fdecea;
   --color-action-required-border: #ff3b30;
@@ -328,7 +331,7 @@ button {
 
 .payment-note {
   font-size: 12.5px;
-  color: var(--color-status-preparing-text);
+  color: var(--color-note-text);
   margin-top: 4px;
 }
 
@@ -582,8 +585,8 @@ button {
   display: flex;
   align-items: flex-start;
   gap: 8px;
-  background: var(--color-status-preparing-bg);
-  color: var(--color-status-preparing-text);
+  background: var(--color-note-bg);
+  color: var(--color-note-text);
   border-radius: var(--radius-sm);
   padding: 10px 12px;
   font-size: 13.5px;

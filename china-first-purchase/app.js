@@ -192,6 +192,11 @@
     return '<span class="placeholder-icon">🖼️</span>';
   }
 
+  function renderPaymentNote(card) {
+    if (isMissing(card.paymentNote)) return "";
+    return '<div class="payment-note">' + escapeHtml(card.paymentNote) + "</div>";
+  }
+
   function metaRow(label, value) {
     return (
       '<div class="meta-row"><span class="meta-label">' +
@@ -222,6 +227,7 @@
         '<div class="purchase-card-body">' +
           '<h3 class="purchase-card-title">' + escapeHtml(displayValue(card.title)) + "</h3>" +
           '<span class="status-badge ' + statusInfo.className + '">' + escapeHtml(statusInfo.label) + "</span>" +
+          renderPaymentNote(card) +
           '<div class="purchase-card-meta">' +
             metaRow("Количество", quantity) +
             metaRow("Цена за шт.", unitPrice) +
@@ -463,6 +469,7 @@
           '<h2 class="detail-title">' + escapeHtml(displayValue(card.title)) + "</h2>" +
           '<span class="status-badge ' + statusInfo.className + '">' + escapeHtml(statusInfo.label) + "</span>" +
         "</div>" +
+        renderPaymentNote(card) +
         '<p class="detail-card-id">' + escapeHtml(card.id) + " · " + escapeHtml(card.date || "") +
           (card.location ? " · " + escapeHtml(card.location) : "") + "</p>" +
         renderWarnings(card) +

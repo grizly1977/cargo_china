@@ -183,6 +183,14 @@ def extract_status(text):
     return raw.strip().strip("*").strip()
 
 
+def extract_payment_note(text):
+    section = get_section(text, r"Статус\s*закупки") or text
+    raw = find_bold_value(section, "Предоплата") or get_field(section, "Предоплата")
+    if not raw:
+        return None
+    return raw.strip().strip("*").strip()
+
+
 def extract_money(text, label):
     raw = find_bold_value(text, label)
     if raw is None:
@@ -219,6 +227,8 @@ def parse_markdown_card(md_text):
             warnings.append(
                 f"Статус «{status_raw}» не входит в разрешённый список статусов."
             )
+
+    payment_note = extract_payment_note(md_text)
 
     size = get_field(md_text, "Размер")
     unit_price = parse_number(
@@ -299,6 +309,7 @@ def parse_markdown_card(md_text):
         "id": card_id,
         "title": title or NOT_SPECIFIED,
         "status": status,
+        "paymentNote": payment_note or NOT_SPECIFIED,
         "size": size or NOT_SPECIFIED,
         "unitPrice": unit_price,
         "currency": currency or NOT_SPECIFIED,
@@ -429,6 +440,7 @@ def process_zip(zip_path):
         "id": card_id,
         "title": parsed["title"],
         "status": parsed["status"],
+        "paymentNote": parsed["paymentNote"],
         "date": PURCHASE_DATE,
         "location": PURCHASE_LOCATION,
         "size": parsed["size"],

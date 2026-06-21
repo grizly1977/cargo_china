@@ -21,6 +21,10 @@
   --color-status-unknown-bg: #ececec;
   --color-status-unknown-text: #6e6e73;
 
+  --color-action-required-bg: #fdecea;
+  --color-action-required-border: #ff3b30;
+  --color-action-required-text: #c0282e;
+
   --radius-lg: 20px;
   --radius-md: 14px;
   --radius-sm: 10px;
@@ -326,6 +330,29 @@ button {
   font-size: 12.5px;
   color: var(--color-status-preparing-text);
   margin-top: 4px;
+}
+
+.action-required-banner {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  background: var(--color-action-required-bg);
+  border: 1.5px solid var(--color-action-required-border);
+  color: var(--color-action-required-text);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  margin-top: 6px;
+  font-size: 13px;
+}
+
+.action-required-banner strong {
+  display: block;
+  font-size: 13.5px;
+  margin-bottom: 2px;
+}
+
+.action-required-banner p {
+  margin: 0;
 }
 
 .purchase-card-meta {

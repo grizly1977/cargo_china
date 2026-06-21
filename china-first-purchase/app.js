@@ -151,7 +151,8 @@
       card.size,
       card.userComment,
       card.systemNotes,
-      card.additionalContact
+      card.additionalContact,
+      card.actionRequired
     ]
       .concat(fileNames)
       .filter(function (v) { return !isMissing(v); })
@@ -197,6 +198,15 @@
     return '<div class="payment-note">' + escapeHtml(card.paymentNote) + "</div>";
   }
 
+  function renderActionRequired(card) {
+    if (isMissing(card.actionRequired)) return "";
+    return (
+      '<div class="action-required-banner"><span>🛑</span><div><strong>Требуется ваше действие</strong><p>' +
+      escapeHtml(card.actionRequired) +
+      "</p></div></div>"
+    );
+  }
+
   function metaRow(label, value) {
     return (
       '<div class="meta-row"><span class="meta-label">' +
@@ -228,6 +238,7 @@
           '<h3 class="purchase-card-title">' + escapeHtml(displayValue(card.title)) + "</h3>" +
           '<span class="status-badge ' + statusInfo.className + '">' + escapeHtml(statusInfo.label) + "</span>" +
           renderPaymentNote(card) +
+          renderActionRequired(card) +
           '<div class="purchase-card-meta">' +
             metaRow("Количество", quantity) +
             metaRow("Цена за шт.", unitPrice) +
@@ -470,6 +481,7 @@
           '<span class="status-badge ' + statusInfo.className + '">' + escapeHtml(statusInfo.label) + "</span>" +
         "</div>" +
         renderPaymentNote(card) +
+        renderActionRequired(card) +
         '<p class="detail-card-id">' + escapeHtml(card.id) + " · " + escapeHtml(card.date || "") +
           (card.location ? " · " + escapeHtml(card.location) : "") + "</p>" +
         renderWarnings(card) +

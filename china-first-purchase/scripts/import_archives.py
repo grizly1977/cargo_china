@@ -316,6 +316,15 @@ def parse_markdown_card(md_text):
             comments_block, "Системные замечания"
         ) or get_section(comments_block, r"Системные\s*замечани")
 
+    chat_section = get_section(md_text, r"История\s*переписки")
+    chat_summary = None
+    chat_history = None
+    chat_original = None
+    if chat_section:
+        chat_summary = get_section(chat_section, r"Резюме")
+        chat_history = get_section(chat_section, r"Переписка")
+        chat_original = get_section(chat_section, r"Оригинал\s*переписки")
+
     return {
         "id": card_id,
         "title": title or NOT_SPECIFIED,
@@ -344,6 +353,9 @@ def parse_markdown_card(md_text):
         "packagingSeaTruck": packaging_sea_truck or NOT_SPECIFIED,
         "userComment": user_comment or NOT_SPECIFIED,
         "systemNotes": system_notes or NOT_SPECIFIED,
+        "chatSummary": chat_summary,
+        "chatHistory": chat_history,
+        "chatOriginal": chat_original,
         "warnings": warnings,
     }
 
@@ -480,6 +492,9 @@ def process_zip(zip_path):
         "packagingSeaTruck": parsed["packagingSeaTruck"],
         "userComment": parsed["userComment"],
         "systemNotes": parsed["systemNotes"],
+        "chatSummary": parsed["chatSummary"],
+        "chatHistory": parsed["chatHistory"],
+        "chatOriginal": parsed["chatOriginal"],
         "originalMarkdownPath": f"cards/{card_id}/original-card.md",
         "rawMarkdown": md_text,
         "warnings": warnings,

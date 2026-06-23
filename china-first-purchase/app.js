@@ -429,6 +429,28 @@
     return html;
   }
 
+  function renderChatHistory(card) {
+    if (isMissing(card.chatHistory) && isMissing(card.chatSummary)) return "";
+    var summaryHtml = isMissing(card.chatSummary)
+      ? ""
+      : '<div class="plain-text-block">' + inlineMarkdown(card.chatSummary) + "</div>";
+    var translatedHtml = isMissing(card.chatHistory)
+      ? ""
+      : '<details class="disclosure"><summary>Показать переписку (перевод на русский) <span class="disclosure-arrow">▾</span></summary>' +
+        '<div class="disclosure-content markdown-block">' + renderMiniMarkdown(card.chatHistory) + "</div>" +
+        "</details>";
+    var originalHtml = isMissing(card.chatOriginal)
+      ? ""
+      : '<details class="disclosure"><summary>Показать оригинал переписки (中文) <span class="disclosure-arrow">▾</span></summary>' +
+        '<div class="disclosure-content markdown-block">' + renderMiniMarkdown(card.chatOriginal) + "</div>" +
+        "</details>";
+    return (
+      '<div class="detail-section"><h4 class="detail-section-title">История переписки с поставщиком</h4>' +
+      summaryHtml + translatedHtml + originalHtml +
+      "</div>"
+    );
+  }
+
   function renderWarnings(card) {
     if (!Array.isArray(card.warnings) || card.warnings.length === 0) return "";
     var items = card.warnings.map(function (w) { return "<li>" + escapeHtml(w) + "</li>"; }).join("");
@@ -493,6 +515,7 @@
         '<div class="detail-section"><h4 class="detail-section-title">Упаковка море + трак</h4><div class="markdown-block">' + renderMiniMarkdown(card.packagingSeaTruck) + "</div></div>" +
         '<div class="detail-section"><h4 class="detail-section-title">Комментарий пользователя</h4><div class="plain-text-block">' + inlineMarkdown(displayValue(card.userComment)) + "</div></div>" +
         '<div class="detail-section"><h4 class="detail-section-title">Системные замечания</h4><div class="markdown-block">' + renderMiniMarkdown(card.systemNotes) + "</div></div>" +
+        renderChatHistory(card) +
         '<details class="disclosure"><summary>Показать оригинальную MD карточку <span class="disclosure-arrow">▾</span></summary>' +
           '<div class="disclosure-content markdown-block">' + renderMiniMarkdown(card.rawMarkdown) + "</div>" +
         "</details>" +

@@ -245,6 +245,10 @@
             metaRow("Сумма инвойса", invoiceTotal) +
             metaRow("Размер", displayValue(card.size)) +
             metaRow("Поставщик", displayValue(card.supplierName)) +
+            (!isMissing(card.boxDimensions) ? metaRow("Размер коробки", card.boxDimensions) : "") +
+            (card.boxCount !== null && card.boxCount !== undefined ? metaRow("Кол-во коробок", card.boxCount + " шт") : "") +
+            (card.boxWeight !== null && card.boxWeight !== undefined ? metaRow("Вес коробки", card.boxWeight + " кг") : "") +
+            (!isMissing(card.chatNote) ? metaRow("Переписка", card.chatNote) : "") +
           "</div>" +
           '<div class="purchase-card-footer"><span>' + escapeHtml(card.id) + "</span></div>" +
         "</div>" +

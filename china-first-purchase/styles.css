@@ -104,8 +104,64 @@ button {
 }
 
 .app-subtitle {
-  margin: 4px 0 18px;
+  margin: 4px 0 14px;
   font-size: 15px;
+  color: var(--color-text-secondary);
+}
+
+/* ---------------- Warehouse Info Block ---------------- */
+.warehouse-info {
+  background: #fff8e6;
+  border: 1px solid #f0c040;
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 18px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .warehouse-info {
+    background: #2c2100;
+    border-color: #7a5e00;
+  }
+}
+
+.warehouse-info-title {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: #9a6700;
+  margin-bottom: 6px;
+}
+
+@media (prefers-color-scheme: dark) {
+  .warehouse-info-title { color: #c9920a; }
+}
+
+.warehouse-address {
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+
+.warehouse-contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 14px;
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.warehouse-contact a {
+  color: var(--color-accent);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.warehouse-hours {
+  font-size: 13px;
   color: var(--color-text-secondary);
 }
 

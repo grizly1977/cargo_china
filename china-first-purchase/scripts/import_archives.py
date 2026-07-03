@@ -302,6 +302,10 @@ def parse_markdown_card(md_text):
         md_text, r"Фото\s*поставщика.*", r"Фото\s*поставщика\s*или\s*чата.*"
     )
 
+    box_dimensions = normalize_dimensions(get_field(md_text, "Размер коробки"))
+    box_count = parse_int(get_field(md_text, "Количество коробок"))
+    box_weight = parse_number(get_field(md_text, "Вес коробки"))
+
     packaging_sea_ups = get_section(md_text, r"\bUPS\b")
     packaging_sea_truck = get_section(md_text, r"\bтрак\b")
 
@@ -317,10 +321,12 @@ def parse_markdown_card(md_text):
         ) or get_section(comments_block, r"Системные\s*замечани")
 
     chat_section = get_section(md_text, r"История\s*переписки")
+    chat_note = None
     chat_summary = None
     chat_history = None
     chat_original = None
     if chat_section:
+        chat_note = get_section(chat_section, r"Краткая\s*заметка")
         chat_summary = get_section(chat_section, r"Резюме")
         chat_history = get_section(chat_section, r"Переписка")
         chat_original = get_section(chat_section, r"Оригинал\s*переписки")
@@ -349,10 +355,14 @@ def parse_markdown_card(md_text):
         "photoFiles": photo_files,
         "invoicePhotoFiles": invoice_photo_files,
         "supplierPhotoFiles": supplier_photo_files,
+        "boxDimensions": box_dimensions,
+        "boxCount": box_count,
+        "boxWeight": box_weight,
         "packagingSeaUps": packaging_sea_ups or NOT_SPECIFIED,
         "packagingSeaTruck": packaging_sea_truck or NOT_SPECIFIED,
         "userComment": user_comment or NOT_SPECIFIED,
         "systemNotes": system_notes or NOT_SPECIFIED,
+        "chatNote": chat_note,
         "chatSummary": chat_summary,
         "chatHistory": chat_history,
         "chatOriginal": chat_original,
@@ -488,10 +498,14 @@ def process_zip(zip_path):
         "invoiceFiles": invoice_files,
         "supplierFiles": supplier_files,
         "extraDocuments": extra_doc_paths,
+        "boxDimensions": parsed["boxDimensions"],
+        "boxCount": parsed["boxCount"],
+        "boxWeight": parsed["boxWeight"],
         "packagingSeaUps": parsed["packagingSeaUps"],
         "packagingSeaTruck": parsed["packagingSeaTruck"],
         "userComment": parsed["userComment"],
         "systemNotes": parsed["systemNotes"],
+        "chatNote": parsed["chatNote"],
         "chatSummary": parsed["chatSummary"],
         "chatHistory": parsed["chatHistory"],
         "chatOriginal": parsed["chatOriginal"],

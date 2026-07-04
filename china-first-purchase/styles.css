@@ -109,6 +109,22 @@ button {
   color: var(--color-text-secondary);
 }
 
+.lang-switch {
+  margin: 0 0 10px;
+  font-size: 13px;
+}
+
+.lang-switch a {
+  color: var(--color-text-secondary);
+  text-decoration: none;
+}
+
+.lang-switch a:hover,
+.lang-switch strong {
+  text-decoration: underline;
+  color: var(--color-text);
+}
+
 /* ---------------- Warehouse Info Block ---------------- */
 .warehouse-info {
   background: #fff8e6;

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Первая закупка в Китае</title>
+<title>首次中国采购</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,69 +11,69 @@
 <div id="app">
 
   <header class="app-header">
-    <div class="lang-switch"><strong>RU</strong> | <a href="index-zh.html">中文</a></div>
-    <h1 class="app-title">Первая закупка в Китае</h1>
-    <p class="app-subtitle">20 июня 2026 года · Китай</p>
+    <div class="lang-switch"><a href="index.html">RU</a> | <strong>中文</strong></div>
+    <h1 class="app-title">首次中国采购</h1>
+    <p class="app-subtitle">2026年6月20日 · 中国</p>
 
     <div class="warehouse-info">
-      <div class="warehouse-info-title">📦 Адрес склада</div>
+      <div class="warehouse-info-title">📦 仓库地址</div>
       <div class="warehouse-address">浙江省金华市金东区孝顺镇广顺南街与集贤路红绿灯路口左拐P栋一楼B区</div>
       <div class="warehouse-contacts">
         <span class="warehouse-contact">👤 天驰: <a href="tel:18680378056">18680378056</a></span>
         <span class="warehouse-contact">🚨 天仁: <a href="tel:13249858824">13249858824</a></span>
-        <span class="warehouse-hours">⏰ Пн–Сб 10:00–21:00</span>
+        <span class="warehouse-hours">⏰ 周一至周六 10:00–21:00</span>
       </div>
     </div>
 
     <div class="summary-stats" id="summaryStats">
       <div class="stat-card stat-total">
         <span class="stat-value" id="statTotal">0</span>
-        <span class="stat-label">всего карточек</span>
+        <span class="stat-label">卡片总数</span>
       </div>
       <div class="stat-card stat-shipped">
         <span class="stat-value" id="statShipped">0</span>
-        <span class="stat-label">товар отправлен</span>
+        <span class="stat-label">货物已发出</span>
       </div>
       <div class="stat-card stat-planned">
         <span class="stat-value" id="statPlanned">0</span>
-        <span class="stat-label">планируется</span>
+        <span class="stat-label">计划中</span>
       </div>
       <div class="stat-card stat-preparing">
         <span class="stat-value" id="statPreparing">0</span>
-        <span class="stat-label">подготавливается</span>
+        <span class="stat-label">准备中</span>
       </div>
     </div>
   </header>
 
   <div class="search-bar">
     <input type="search" id="searchInput" class="search-input"
-           placeholder="Поиск: товар, номер, поставщик, WeChat ID...">
+           placeholder="搜索：产品、编号、供应商、微信号…">
   </div>
 
   <div class="filter-chips" id="filterChips">
-    <button class="chip chip-active" data-status="all">Все</button>
-    <button class="chip" data-status="товар отправлен">Товар отправлен</button>
-    <button class="chip" data-status="планируется">Планируется</button>
-    <button class="chip" data-status="подготавливается">Подготавливается</button>
+    <button class="chip chip-active" data-status="all">全部</button>
+    <button class="chip" data-status="货物已发出">货物已发出</button>
+    <button class="chip" data-status="计划中">计划中</button>
+    <button class="chip" data-status="准备中">准备中</button>
   </div>
 
   <main id="cardsContainer" class="cards-container"></main>
 
   <div id="emptyState" class="empty-state" hidden>
     <div class="empty-state-icon">📦</div>
-    <h2 class="empty-state-title">Пока нет карточек закупки</h2>
-    <p class="empty-state-text">Добавьте ZIP-архивы в папку <code>purchase-archives</code> и запустите импорт.</p>
+    <h2 class="empty-state-title">暂无采购卡片</h2>
+    <p class="empty-state-text">请将 ZIP 压缩包添加到 <code>purchase-archives</code> 文件夹并运行导入脚本。</p>
   </div>
 
   <div id="noResultsState" class="empty-state" hidden>
     <div class="empty-state-icon">🔍</div>
-    <h2 class="empty-state-title">Ничего не найдено</h2>
-    <p class="empty-state-text">Попробуйте изменить поиск или фильтр по статусу.</p>
+    <h2 class="empty-state-title">未找到结果</h2>
+    <p class="empty-state-text">请尝试修改搜索关键词或状态筛选条件。</p>
   </div>
 
   <div id="loadingState" class="loading-state">
     <div class="spinner"></div>
-    <p>Загрузка данных закупки…</p>
+    <p>正在加载采购数据…</p>
   </div>
 
   <div id="detailOverlay" class="detail-overlay" hidden>
@@ -82,6 +82,6 @@
 
 </div>
 
-<script src="app.js"></script>
+<script src="app-zh.js"></script>
 </body>
 </html>

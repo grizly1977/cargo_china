@@ -339,6 +339,12 @@ def process_card(card_dir):
     supplier_files = [
         asset_path(n) for n in parsed["supplierPhotoFiles"] if n in existing_assets
     ]
+    referenced = set(
+        parsed["photoFiles"] + parsed["invoicePhotoFiles"] + parsed["supplierPhotoFiles"]
+    )
+    extra_documents = [
+        asset_path(n) for n in sorted(existing_assets - referenced)
+    ]
 
     card = {
         "id": card_id,
@@ -367,7 +373,7 @@ def process_card(card_dir):
         "photos": photos,
         "invoiceFiles": invoice_files,
         "supplierFiles": supplier_files,
-        "extraDocuments": [],
+        "extraDocuments": extra_documents,
         "boxDimensions": parsed["boxDimensions"],
         "boxCount": parsed["boxCount"],
         "boxWeight": parsed["boxWeight"],

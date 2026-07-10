@@ -207,6 +207,15 @@
     );
   }
 
+  function renderDeliveryConfirmed(card) {
+    if (isMissing(card.deliveryConfirmed)) return "";
+    return (
+      '<div class="success-banner"><span>✅</span><div><strong>货物已收到</strong><p>' +
+      escapeHtml(card.deliveryConfirmed) +
+      "</p></div></div>"
+    );
+  }
+
   function metaRow(label, value) {
     return (
       '<div class="meta-row"><span class="meta-label">' +
@@ -239,6 +248,7 @@
           '<span class="status-badge ' + statusInfo.className + '">' + escapeHtml(statusInfo.label) + "</span>" +
           renderPaymentNote(card) +
           renderActionRequired(card) +
+          renderDeliveryConfirmed(card) +
           '<div class="purchase-card-meta">' +
             metaRow("数量", quantity) +
             metaRow("单价", unitPrice) +
@@ -503,6 +513,7 @@
         "</div>" +
         renderPaymentNote(card) +
         renderActionRequired(card) +
+        renderDeliveryConfirmed(card) +
         '<p class="detail-card-id">' + escapeHtml(card.id) + " · " + escapeHtml(card.date || "") +
           (card.location ? " · " + escapeHtml(card.location) : "") + "</p>" +
         renderWarnings(card) +

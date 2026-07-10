@@ -201,6 +201,13 @@ def extract_action_required(text):
     return section.strip().strip("*").strip()
 
 
+def extract_delivery_confirmed(text):
+    section = get_section(text, r"Товар\s*получен|Подтверждение\s*получения")
+    if not section:
+        return None
+    return section.strip().strip("*").strip()
+
+
 def extract_money(text, label):
     raw = find_bold_value(text, label)
     if raw is None:
@@ -240,6 +247,7 @@ def parse_markdown_card(md_text):
 
     payment_note = extract_payment_note(md_text)
     action_required = extract_action_required(md_text)
+    delivery_confirmed = extract_delivery_confirmed(md_text)
 
     size = get_field(md_text, "Размер")
     unit_price = parse_number(
@@ -337,6 +345,7 @@ def parse_markdown_card(md_text):
         "status": status,
         "paymentNote": payment_note or NOT_SPECIFIED,
         "actionRequired": action_required or NOT_SPECIFIED,
+        "deliveryConfirmed": delivery_confirmed or NOT_SPECIFIED,
         "size": size or NOT_SPECIFIED,
         "unitPrice": unit_price,
         "currency": currency or NOT_SPECIFIED,
@@ -476,6 +485,7 @@ def process_zip(zip_path):
         "status": parsed["status"],
         "paymentNote": parsed["paymentNote"],
         "actionRequired": parsed["actionRequired"],
+        "deliveryConfirmed": parsed["deliveryConfirmed"],
         "date": PURCHASE_DATE,
         "location": PURCHASE_LOCATION,
         "size": parsed["size"],

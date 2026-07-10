@@ -192,6 +192,13 @@ def extract_action_required(text):
     return section.strip().strip("*").strip()
 
 
+def extract_delivery_confirmed(text):
+    section = get_section(text, r"货物已收到|确认收货")
+    if not section:
+        return None
+    return section.strip().strip("*").strip()
+
+
 def extract_money(text, label):
     raw = find_bold_value(text, label)
     if raw is None:
@@ -217,6 +224,7 @@ def parse_zh_markdown(md_text):
 
     payment_note = extract_payment_note(md_text)
     action_required = extract_action_required(md_text)
+    delivery_confirmed = extract_delivery_confirmed(md_text)
 
     size = get_field(md_text, "尺寸")
     unit_price = parse_number(get_field(md_text, "采购单价", "采购单价（每件）"))
@@ -284,6 +292,7 @@ def parse_zh_markdown(md_text):
         "status": status,
         "paymentNote": payment_note or NOT_SPECIFIED,
         "actionRequired": action_required or NOT_SPECIFIED,
+        "deliveryConfirmed": delivery_confirmed or NOT_SPECIFIED,
         "size": size or NOT_SPECIFIED,
         "unitPrice": unit_price,
         "currency": currency or NOT_SPECIFIED,
@@ -352,6 +361,7 @@ def process_card(card_dir):
         "status": parsed["status"],
         "paymentNote": parsed["paymentNote"],
         "actionRequired": parsed["actionRequired"],
+        "deliveryConfirmed": parsed["deliveryConfirmed"],
         "date": PURCHASE_DATE_ZH,
         "location": PURCHASE_LOCATION_ZH,
         "size": parsed["size"],
